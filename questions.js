@@ -13,7 +13,7 @@ questions = [
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": 5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -66,12 +66,12 @@ questions = [
         }
     },
     {
-        "question": "Basic utilities like roads and electricity should be privatized.",
+        "question": "The government should invest more in public infrastructure.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 5
         }
     },
 
@@ -324,7 +324,7 @@ questions = [
         "question": "The very existence of the state is a threat to our liberty.",
         "effect": {
             "econ": 0,
-            "dipl": 0,
+            "dipl": 5,
             "govt": 15,
             "scty": 0
         }
@@ -480,7 +480,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 10,
+            "govt": 5,
             "scty": 5
         }
     },
@@ -701,7 +701,7 @@ questions = [
         }
     },
     {
-        "question": "Cryptocurrencies are useful only for gambling and money laundering by criminals. They should be heavily regulated or banned",
+        "question": "Cryptocurrencies are useful only for gambling and money laundering by criminals. They should be heavily regulated or banned.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -772,6 +772,15 @@ questions = [
             "scty": 0
         }
     },
+{
+        "question": "To view consumer goods and an increase in living standards as ends in themselves is a sign of moral corruption.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
     {
         "question": "Employees should have the right to work remotely if their job allows it.",
         "effect": {
@@ -791,14 +800,59 @@ questions = [
         }
     },
     {
-        "question": "To view consumer goods and an increase in living standards as ends in themselves is a sign of moral corruption.",
+        "question": "Movies, TV series, and videogames with sexualized/objectified female characters are problematic.",
         "effect": {
-            "econ": 10,
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": 10
+        }
+    },
+{
+        "question": "Grievances about cultural issues such as diverse media representation and transgenderism distract from the real issues the worker class faces.",
+        "effect": {
+            "econ": 5,
             "dipl": 0,
             "govt": 0,
+            "scty": -10
+        }
+    },
+{
+        "question": "The main driver of progress is technology, not politics.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 10
+        }
+    },
+{
+        "question": "Access to violent videogames should be heavily restricted or outright banned.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -5
+        }
+    },
+    {
+        "question": "The government should phase out physical cash in favor of a fully digital currency to prevent crime and tax evasion.",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": -15,
             "scty": 0
         }
     },
+{
+    "question": "Phasing out fossil fuels while ignoring nuclear power in favor of wind and solar is hypocritical.",
+    "effect": {
+        "econ": 0,
+        "dipl": 0,
+        "govt": 0,
+        "scty": -5
+    }
+},
     {
         "question": "Society has become way too sensitive. People need not to take everything personally.",
         "effect": {
