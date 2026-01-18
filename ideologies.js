@@ -71,7 +71,7 @@ ideologies = [
             "econ": 80,
             "dipl": 70,
             "govt": 50,
-            "scty": 80
+            "scty": 65
         }
     },
 
@@ -90,17 +90,17 @@ ideologies = [
         "stats": {
             "econ": 75,
             "dipl": 85,
-            "govt": 40,
+            "govt": 35,
             "scty": 95
         }
     },
     {
         "name": "Asian Technocracy",
         "stats": {
-            "econ": 65,
-            "dipl": 35,
-            "govt": 20,
-            "scty": 65
+            "econ": 35,
+            "dipl": 30,
+            "govt": 25,
+            "scty": 50
         }
     },
     {
@@ -158,7 +158,7 @@ ideologies = [
             "econ": 10,
             "dipl": 75,
             "govt": 80,
-            "scty": 55
+            "scty": 50
         }
     },
     {
@@ -176,7 +176,7 @@ ideologies = [
             "econ": 0,
             "dipl": 90,
             "govt": 100,
-            "scty": 60
+            "scty": 50
         }
     },
     {
@@ -221,7 +221,7 @@ ideologies = [
             "econ": 0,
             "dipl": 10,
             "govt": 55,
-            "scty": 60
+            "scty": 65
         }
     },
 
@@ -248,7 +248,7 @@ ideologies = [
         "name": "Distributism",
         "stats": {
             "econ": 75,
-            "dipl": 55,
+            "dipl": 60,
             "govt": 40,
             "scty": 20
         }
@@ -282,20 +282,12 @@ ideologies = [
             "scty": 5
         }
     },
-    {
-        "name": "Authoritarian Capitalism",
-        "stats": {
-            "econ": 25,
-            "dipl": 40,
-            "govt": 10,
-            "scty": 40
-        }
-    },
+        
     {
         "name": "Absolutism/Militarism",
         "stats": {
             "econ": 50,
-            "dipl": 50,
+            "dipl": 40,
             "govt": 10,
             "scty": 35
         }
