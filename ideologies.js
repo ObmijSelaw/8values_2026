@@ -4,9 +4,9 @@ ideologies = [
         "name": "Marxism-Leninism",
         "stats": {
             "econ": 90,
-            "dipl": 60,
+            "dipl": 65,
             "govt": 20,
-            "scty": 50
+            "scty": 60
         }
     },
     {
@@ -23,7 +23,7 @@ ideologies = [
         "stats": {
             "econ": 100,
             "dipl": 30,
-            "govt": 10,
+            "govt": 5,
             "scty": 45
         }
     },
@@ -89,7 +89,7 @@ ideologies = [
         "name": "Western Progressivism",
         "stats": {
             "econ": 75,
-            "dipl": 85,
+            "dipl": 90,
             "govt": 35,
             "scty": 95
         }
@@ -100,16 +100,16 @@ ideologies = [
             "econ": 35,
             "dipl": 30,
             "govt": 25,
-            "scty": 50
+            "scty": 40
         }
     },
     {
         "name": "Christian Democracy",
         "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 40,
-            "scty": 25
+            "econ": 70,
+            "dipl": 55,
+            "govt": 45,
+            "scty": 20
         }
     },
 
@@ -117,7 +117,7 @@ ideologies = [
     {
         "name": "Social Liberalism",
         "stats": {
-            "econ": 65,
+            "econ": 60,
             "dipl": 50,
             "govt": 70,
             "scty": 60
@@ -144,7 +144,7 @@ ideologies = [
     {
         "name": "Neoliberalism",
         "stats": {
-            "econ": 30,
+            "econ": 25,
             "dipl": 80,
             "govt": 60,
             "scty": 75
@@ -167,7 +167,7 @@ ideologies = [
             "econ": 10,
             "dipl": 45,
             "govt": 70,
-            "scty": 60
+            "scty": 55
         }
     },
 {
@@ -203,7 +203,7 @@ ideologies = [
             "econ": 60,
             "dipl": 70,
             "govt": 100,
-            "scty": 20
+            "scty": 15
         }
     },
     {
@@ -212,7 +212,7 @@ ideologies = [
             "econ": 20,
             "dipl": 35,
             "govt": 70,
-            "scty": 20
+            "scty": 25
         }
     },
     {
@@ -220,19 +220,19 @@ ideologies = [
         "stats": {
             "econ": 0,
             "dipl": 10,
-            "govt": 55,
+            "govt": 75,
             "scty": 65
         }
     },
 
     // --- CONSERVATISMS ---
     {
-        "name": "Classical Conservatism",
+        "name": "Liberal Conservatism",
         "stats": {
             "econ": 30,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 30
+            "dipl": 35,
+            "govt": 50,
+            "scty": 35
         }
     },
     {
@@ -257,8 +257,8 @@ ideologies = [
         "name": "Neo-Conservatism",
         "stats": {
             "econ": 30,
-            "dipl": 20,
-            "govt": 30,
+            "dipl": 15,
+            "govt": 35,
             "scty": 30
         }
     },
@@ -276,7 +276,7 @@ ideologies = [
     {
         "name": "Nazism",
         "stats": {
-            "econ": 45,
+            "econ": 40,
             "dipl": 0,
             "govt": 0,
             "scty": 5
