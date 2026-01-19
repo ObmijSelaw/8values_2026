@@ -77,21 +77,12 @@ ideologies = [
 
     // --- WELFARE STATES ---
     {
-        "name": "Social Democracy",
-        "stats": {
-            "econ": 70,
-            "dipl": 70,
-            "govt": 50,
-            "scty": 75
-        }
-    },
-    {
         "name": "Western Progressivism",
         "stats": {
-            "econ": 75,
+            "econ": 80,
             "dipl": 90,
-            "govt": 35,
-            "scty": 95
+            "govt": 45,
+            "scty": 90
         }
     },
     {
