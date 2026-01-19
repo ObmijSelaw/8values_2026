@@ -570,7 +570,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": -15,
             "scty": 10
         }
     },
@@ -710,7 +710,7 @@ questions = [
         }
     },
     {
-        "question": "Encryption is a valuable technology that guarantees privacy and should never be restricted by the government.",
+        "question": "Encryption is a valuable technology that protects privacy and should never be restricted by the government.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -737,11 +737,11 @@ questions = [
         }
     },
     {
-        "question": "Contraception, abortions, and feminism are the culprits behind the reproduction-rate decline. Restricting them would save our nation, our culture, and our race.",
+        "question": "Contraception, abortions, and feminism are the culprits behind the reproduction-rate decline. Restricting them would save our culture, our race, and our country.",
         "effect": {
             "econ": 0,
-            "dipl": 0,
-            "govt": -10,
+            "dipl": -5,
+            "govt": -15,
             "scty": -10
         }
     },
@@ -786,7 +786,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 5,
+            "govt": 10,
             "scty": 10
         }
     },
@@ -841,7 +841,7 @@ questions = [
             "econ": 5,
             "dipl": 0,
             "govt": -15,
-            "scty": 0
+            "scty": 5
         }
     },
 {
@@ -863,5 +863,6 @@ questions = [
         }
     }
 ];
+
 
 
