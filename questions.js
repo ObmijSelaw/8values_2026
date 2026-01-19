@@ -611,12 +611,12 @@ questions = [
         }
     },
     {
-        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
+        "question": "Individuals and private businesses should be allowed to refuse service to certain groups based on nationality,religion, race, or sexuality if so they choose.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
+            "econ": -5,
+            "dipl": -10,
+            "govt": 5,
+            "scty": -10
         }
     },
     {
