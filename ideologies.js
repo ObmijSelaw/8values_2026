@@ -98,7 +98,7 @@ ideologies = [
         "name": "Asian Technocracy",
         "stats": {
             "econ": 35,
-            "dipl": 30,
+            "dipl": 25,
             "govt": 25,
             "scty": 40
         }
@@ -257,9 +257,9 @@ ideologies = [
         "name": "Neo-Conservatism",
         "stats": {
             "econ": 30,
-            "dipl": 15,
-            "govt": 35,
-            "scty": 30
+            "dipl": 10,
+            "govt": 30,
+            "scty": 25
         }
     },
 
@@ -270,7 +270,7 @@ ideologies = [
             "econ": 50,
             "dipl": 15,
             "govt": 10,
-            "scty": 20
+            "scty": 15
         }
     },
     {
