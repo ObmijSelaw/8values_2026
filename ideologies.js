@@ -1,7 +1,7 @@
 ideologies = [
-    // --- COMMUNISMS ---
+    // --- COMMUNIST BLOCK (Extreme Econ) ---
     {
-        "name": "Marxism-Leninism",
+        "name": "Marxism-Leninism", // --- Prototypical ideology within the block ---
         "stats": {
             "econ": 90,
             "dipl": 65,
@@ -10,16 +10,16 @@ ideologies = [
         }
     },
     {
-        "name": "Trotskyism",
+        "name": "Trotskyism", // --- High dipl ---
         "stats": {
             "econ": 100,
             "dipl": 90,
             "govt": 30,
-            "scty": 60
+            "scty": 70
         }
     },
     {
-        "name": "Stalinism/Maoism",
+        "name": "Stalinism/Maoism", // --- Low dipl and govt, slightly conservative culture ---
         "stats": {
             "econ": 100,
             "dipl": 30,
@@ -28,7 +28,7 @@ ideologies = [
         }
     },
     {
-        "name": "Agrarian Communism",
+        "name": "Agrarian Communism", // --- Lowest dipl, govt, and scty ---
         "stats": {
             "econ": 100,
             "dipl": 5,
@@ -37,18 +37,27 @@ ideologies = [
         }
     },
     {
-        "name": "Religious Communism",
+        "name": "Religious Communism", // --- Most similar to Marxism but conservative ---
         "stats": {
             "econ": 90,
             "dipl": 40,
-            "govt": 30,
+            "govt": 20,
             "scty": 20
         }
     },
 
-    // --- SOCIALISMS ---
+  {
+        "name": "Anarcho-Communism", // --- Extreme govt and dipl, anarchist ---
+        "stats": {
+            "econ": 100,
+            "dipl": 90,
+            "govt": 100,
+            "scty": 75
+        }
+    },
+
     {
-        "name": "Libertarian Socialism",
+        "name": "Libertarian Socialism", // --- High govt, otherwise similar to Marxism ---
         "stats": {
             "econ": 80,
             "dipl": 70,
@@ -56,17 +65,9 @@ ideologies = [
             "scty": 65
         }
     },
+   
     {
-        "name": "State Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 40,
-            "govt": 25,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Democratic Socialism",
+        "name": "Democratic Socialism", // --- Moderate govt, otherwise similar to Marxism ---
         "stats": {
             "econ": 80,
             "dipl": 70,
@@ -75,46 +76,48 @@ ideologies = [
         }
     },
 
-    // --- WELFARE STATES ---
+    // --- SOCIAL-BUT-NOT SOCIALIST (Moderate to high econ, moderate to low govt ---
+{
+        "name": "Social Corporatism", // --- Prototypical within the block ---
+        "stats": {
+            "econ": 70,
+            "dipl": 40,
+            "govt": 35,
+            "scty": 50
+        }
+    },
     {
-        "name": "Western Progressivism",
+        "name": "Western Progressivism", // --- High scty and dipl, also causes higher econ ---
         "stats": {
             "econ": 80,
             "dipl": 90,
-            "govt": 45,
+            "govt": 50,
             "scty": 90
         }
     },
-    {
-        "name": "Asian Technocracy",
-        "stats": {
-            "econ": 35,
-            "dipl": 25,
-            "govt": 25,
-            "scty": 40
-        }
-    },
-    {
-        "name": "Christian Democracy",
+
+   {
+        "name": "Mutualism", // --- social but not socialist anarchism ---
         "stats": {
             "econ": 70,
-            "dipl": 55,
-            "govt": 45,
+            "dipl": 80,
+            "govt": 100,
+            "scty": 60
+        }
+    }, 
+
+    {
+        "name": "Christian Democracy", // --- Low scty, but also slightly more democratic  ---
+        "stats": {
+            "econ": 70,
+            "dipl": 40,
+            "govt": 40,
             "scty": 20
         }
     },
 
-    // --- LIBERALISMS ---
-    {
-        "name": "Social Liberalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 60
-        }
-    },
-    {
+// --- CENTRISM ---
+   {
         "name": "Centrism",
         "stats": {
             "econ": 50,
@@ -123,28 +126,41 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Classical Liberalism",
+
+    // --- LIBERALISMS (medium to high govt) ---
+   {
+        "name": "Classical Liberalism", // --- Prototypical within the block ---
         "stats": {
             "econ": 25,
-            "dipl": 60,
+            "dipl": 50,
             "govt": 70,
-            "scty": 50
+            "scty": 45
         }
     },
     {
-        "name": "Neoliberalism",
+        "name": "Social Liberalism", // --- Liberalism with medium high econ ---
+        "stats": {
+            "econ": 70,
+            "dipl": 60,
+            "govt": 70,
+            "scty": 60
+        }
+    },
+ 
+ 
+    {
+        "name": "Neoliberalism", // --- Combines classical liberalism with globalist values ---
         "stats": {
             "econ": 25,
             "dipl": 80,
-            "govt": 60,
+            "govt": 70,
             "scty": 75
         }
     },
 
-    // --- LIBERTARIANISMS & ANARCHISMS ---
+    // --- CAPITALISMS (extreme low econ) ---
     {
-        "name": "Minarchism",
+        "name": "Minarchism", // --- Prototypical within the block ---
         "stats": {
             "econ": 10,
             "dipl": 75,
@@ -153,16 +169,16 @@ ideologies = [
         }
     },
     {
-        "name": "Techno-optimism (e/acc)",
+        "name": "Techno-optimism (e/acc)", // --- more nationalist and slightly more progressive at the same time ---
         "stats": {
             "econ": 10,
             "dipl": 45,
             "govt": 70,
-            "scty": 55
+            "scty": 60
         }
     },
 {
-        "name": "Anarcho-Capitalism",
+        "name": "Anarcho-Capitalism", // --- extreme govt and dipl, anarchist ---
         "stats": {
             "econ": 0,
             "dipl": 90,
@@ -170,24 +186,8 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Mutualism",
-        "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Anarcho-Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 90,
-            "govt": 100,
-            "scty": 75
-        }
-    },
+ 
+  
     {
         "name": "Anarcho-Primitivism",
         "stats": {
@@ -198,16 +198,16 @@ ideologies = [
         }
     },
     {
-        "name": "Paleo-Libertarianism",
+        "name": "Paleo-Libertarianism", // --- Low dipl and scty, conservative influence also tones down laissez faire ---
         "stats": {
             "econ": 20,
             "dipl": 35,
-            "govt": 70,
+            "govt": 75,
             "scty": 25
         }
     },
     {
-        "name": "Objectivism",
+        "name": "Objectivism", // --- Laissez faire econ with strong nationalism. Atheist but not "woke" ---
         "stats": {
             "econ": 0,
             "dipl": 10,
@@ -216,9 +216,9 @@ ideologies = [
         }
     },
 
-    // --- CONSERVATISMS ---
+    // --- CONSERVATISMS (medium low scty and dipl, moderate govt) ---
     {
-        "name": "Liberal Conservatism",
+        "name": "Liberal Conservatism", // --- Prototypical within the block. Similar to classic liberalism but more nationalist and conservative ---
         "stats": {
             "econ": 30,
             "dipl": 35,
@@ -227,36 +227,46 @@ ideologies = [
         }
     },
     {
-        "name": "Paleo-Conservatism",
+        "name": "Paleo-Conservatism", // --- protectionist econ, more nationalist and conservative ---
         "stats": {
             "econ": 65,
             "dipl": 20,
-            "govt": 40,
+            "govt": 50,
             "scty": 20
         }
     },
     {
-        "name": "Distributism",
+        "name": "Distributism",// --- religious socioeconomic theory, social but not socialist ---
         "stats": {
             "econ": 75,
-            "dipl": 60,
-            "govt": 40,
+            "dipl": 35,
+            "govt": 50,
             "scty": 20
         }
     },
     {
-        "name": "Neo-Conservatism",
+        "name": "Neo-Conservatism", // --- more hawkish dipl, concerned about terrorism ---
         "stats": {
             "econ": 30,
             "dipl": 10,
-            "govt": 30,
+            "govt": 35,
             "scty": 25
         }
     },
 
-    // --- RIGHT-WING AUTOCRACIES ---
+    // --- MIXED AND MARKET AUTOCRACIES ---
+{
+        "name": "Autocratic Centrism", // --- Prototypical within the block ---
+        "stats": {
+            "econ": 50,
+            "dipl": 45,
+            "govt": 10,
+            "scty": 45
+        }
+    },
+
     {
-        "name": "Fascism",
+        "name": "Fascism", // --- less dipl and scty ---
         "stats": {
             "econ": 50,
             "dipl": 15,
@@ -265,7 +275,7 @@ ideologies = [
         }
     },
     {
-        "name": "Nazism",
+        "name": "Nazism", // --- even less dipl and scty ---
         "stats": {
             "econ": 40,
             "dipl": 0,
@@ -273,14 +283,25 @@ ideologies = [
             "scty": 5
         }
     },
-        
-    {
-        "name": "Absolutism/Militarism",
+
+{
+        "name": "National Bolshevism", // --- Fascism with communist economics ---
         "stats": {
-            "econ": 50,
-            "dipl": 40,
+            "econ": 80,
+            "dipl": 15,
             "govt": 10,
-            "scty": 35
+            "scty": 20
+        }
+    },
+
+{
+       "name": "East Asian Technocracy", // --- more capitalist, nationalist and slightly conservative ---
+        "stats": {
+            "econ": 35,
+            "dipl": 25,
+            "govt": 25,
+            "scty": 40
         }
     }
+        
 ];
