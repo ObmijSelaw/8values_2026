@@ -177,7 +177,7 @@ questions = [
         }
     },
     {
-        "question": "My country is the noblest and most moral country in the history of the world.",
+        "question": "My country is the noblest and most moral nation in the history of the world.",
         "effect": {
             "econ": 0,
             "dipl": -15,
@@ -413,7 +413,7 @@ questions = [
         }
     },
     {
-        "question": "The entertainment industry should include and represent more people from marginalized groups (such as LGBTQ+, blacks, indigenous, etc.)",
+        "question": "The entertainment industry should include and represent more people from marginalized groups (such as LGBTQ+, blacks, indigenous, women, etc.)",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -467,7 +467,7 @@ questions = [
         }
     },
     {
-        "question": "Transgender individuals should be legally recognized as their self-identified gender and allowed in public and private sex-segregated spaces of their choice.",
+        "question": "Transgender individuals should be legally recognized as their self-identified gender and be granted access to both public and private spaces based on their gender identity, not biological sex.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -863,3 +863,4 @@ questions = [
         }
     }
 ];
+
