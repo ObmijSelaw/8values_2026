@@ -521,11 +521,11 @@ questions = [
         }
     },
     {
-        "question": "Abortion should be prohibited in most or all cases.",
+        "question": "It's tragic that young people have parasocial relationships with celebrities, idols, and fictional characters instead of meeting real people.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -863,6 +863,3 @@ questions = [
         }
     }
 ];
-
-
-
