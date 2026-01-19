@@ -91,7 +91,7 @@ ideologies = [
         "stats": {
             "econ": 80,
             "dipl": 90,
-            "govt": 50,
+            "govt": 40,
             "scty": 90
         }
     },
@@ -222,7 +222,7 @@ ideologies = [
         "stats": {
             "econ": 30,
             "dipl": 35,
-            "govt": 50,
+            "govt": 60,
             "scty": 30
         }
     },
@@ -240,7 +240,7 @@ ideologies = [
         "stats": {
             "econ": 75,
             "dipl": 35,
-            "govt": 50,
+            "govt": 60,
             "scty": 20
         }
     },
@@ -250,7 +250,7 @@ ideologies = [
             "econ": 30,
             "dipl": 10,
             "govt": 35,
-            "scty": 25
+            "scty": 20
         }
     },
 
@@ -260,7 +260,7 @@ ideologies = [
         "stats": {
             "econ": 50,
             "dipl": 45,
-            "govt": 10,
+            "govt": 20,
             "scty": 45
         }
     },
@@ -297,10 +297,10 @@ ideologies = [
 {
        "name": "East Asian Technocracy", // --- more capitalist, nationalist and slightly conservative ---
         "stats": {
-            "econ": 35,
+            "econ": 30,
             "dipl": 25,
-            "govt": 25,
-            "scty": 40
+            "govt": 35,
+            "scty": 45
         }
     }
         
