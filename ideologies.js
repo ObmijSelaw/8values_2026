@@ -87,7 +87,7 @@ ideologies = [
         }
     },
     {
-        "name": "Western Progressivism", // --- High scty and dipl, also causes higher econ ---
+        "name": "Intersectional Progressivism", // --- High scty and dipl, also causes higher econ ---
         "stats": {
             "econ": 80,
             "dipl": 90,
