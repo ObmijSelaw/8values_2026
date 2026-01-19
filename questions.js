@@ -330,9 +330,9 @@ questions = [
         }
     },
     {
-        "question": "Regardless of political opinions, it is important to side with your country.",
+        "question": "Our country should be economically self-sufficient, not reliant on imports and exports.",
         "effect": {
-            "econ": 0,
+            "econ": 10,
             "dipl": -10,
             "govt": -5,
             "scty": -5
