@@ -18,7 +18,7 @@ questions = [
         }
     },
  {
-        "question": "Main objective of justice system should be rehabilition, not punishment.",
+        "question": "Main objective of justice system should be to rehabilitate those who broke the law, not to punish or isolate them.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -27,7 +27,7 @@ questions = [
         }
     },
     {
-        "question": "We should ensure everyone has their basic needs met",
+        "question": "We should ensure everyone has their basic needs met no matter their income or job.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -140,7 +140,7 @@ questions = [
     },
     
     {
-        "question": "Military action by our country is often necessary to protect it and, therefore, justified.",
+        "question": "The best way to ensure peace is through military strength and mutual deterrence.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -159,7 +159,7 @@ questions = [
         }
     },
             {
-        "question": "A civilized nation has the moral right to conquer primitive lands and countries.",
+        "question": "A civilized nation has the moral right to conquer primitive lands and peoples.",
         "effect": {
             "econ": 0,
             "dipl": -15,
@@ -186,11 +186,11 @@ questions = [
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        "question": "Our country should always take into account the interests of allied nations and never wage war without their approval.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
-            "govt": -5,
+            "dipl": 10,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -231,16 +231,16 @@ questions = [
         }
     },
     {
-        "question": "Governments should be accountable to the international community.",
+        "question": "Compulsory enlistment into military service is unacceptable. Professional militaries should be staffed with volunteers only.",
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 5,
-            "scty": 0
+            "govt": 10,
+            "scty": 10
         }
     },
     {
-        "question": "Protestors that block public avenues and buildings should be prosecuted and required to indemnify individuals and businesses affected by their disturbances.",
+        "question": "Protestors that block public avenues should be prosecuted and required to indemnify individuals and businesses affected by their disturbances.",
         "effect": {
             "econ": -5,
             "dipl": 0,
@@ -285,9 +285,9 @@ questions = [
         }
     },
     {
-        "question": "The general populace generally makes poor decisions.",
+        "question": "The general populace generally makes poor decisions left to its own devices.",
         "effect": {
-            "econ": 0,
+            "econ": 5,
             "dipl": 0,
             "govt": -10,
             "scty": 0
@@ -386,11 +386,11 @@ questions = [
         }
     },
     {
-        "question": "Colorblind approaches to race-issues are problematic because they ignore structural inequality. Affirmative action to correct it is needed.",
+        "question": "Diversity quotas favoring marginalized groups (LGBTQ+, blacks, indigenous, women, etc.) should be mandated for public and private sectors.",
         "effect": {
             "econ": 10,
             "dipl": 0,
-            "govt": -5,
+            "govt": -10,
             "scty": 10
         }
     },
@@ -413,11 +413,11 @@ questions = [
         }
     },
     {
-        "question": "The entertainment industry should include and represent more people from marginalized groups (such as LGBT, blacks, indigenous, etc.)",
+        "question": "The entertainment industry should include and represent more people from marginalized groups (such as LGBTQ+, blacks, indigenous, etc.)",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 0,
+            "govt": -5,
             "scty": 10
         }
     },
@@ -462,16 +462,16 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": -10,
             "scty": 10
         }
     },
     {
-        "question": "Transgender individuals should be legally recognized as their self-identified gender and allowed in sex-segregated spaces of their choice.",
+        "question": "Transgender individuals should be legally recognized as their self-identified gender and allowed in public and private sex-segregated spaces of their choice.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 0,
+            "govt": -10,
             "scty": 10
         }
     },
@@ -557,7 +557,7 @@ questions = [
         }
     },
     {
-        "question": "Children raised by mother and father do better in life. Having single, divorced, or homosexual parents is harmful and it should not be encouraged.",
+        "question": "Children raised by mother and father do better in life. Having single, divorced, or homosexual parents is harmful and it should not be normalized.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -676,7 +676,7 @@ questions = [
     {
         "question": "The government and telco companies suppress information about the harm caused by wireless signals, such as 5G.",
         "effect": {
-            "econ": 0,
+            "econ": 5,
             "dipl": 0,
             "govt": 0,
             "scty": -10
@@ -696,7 +696,7 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -737,11 +737,11 @@ questions = [
         }
     },
     {
-        "question": "Contraception, the right to abortion, and feminism are the culprits behind the reproduction-rate decline. Restricting them would be the solution.",
+        "question": "Contraception, abortions, and feminism are the culprits behind the reproduction-rate decline. Restricting them would save our nation, our culture, and our race.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": -10,
             "scty": -10
         }
     },
@@ -773,7 +773,7 @@ questions = [
         }
     },
 {
-        "question": "To view consumer goods and an increase in living standards as ends in themselves is a sign of moral corruption.",
+        "question": "To view consumer goods and an increase in material living standards as ends in themselves is a sign of moral corruption.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -782,12 +782,12 @@ questions = [
         }
     },
     {
-        "question": "Employees should have the right to work remotely if their job allows it.",
+        "question": "We should have a total separation between state and religion.",
         "effect": {
-            "econ": 5,
+            "econ": 0,
             "dipl": 0,
-            "govt": 0,
-            "scty": 5
+            "govt": 5,
+            "scty": 10
         }
     },
     {
@@ -800,7 +800,7 @@ questions = [
         }
     },
     {
-        "question": "Movies, TV series, and videogames with sexualized/objectified female characters are problematic.",
+        "question": "Movies, TV series, and videogames with over-sexualized/objectified female characters are problematic.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -863,4 +863,5 @@ questions = [
         }
     }
 ];
+
 
