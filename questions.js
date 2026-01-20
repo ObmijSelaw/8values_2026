@@ -312,7 +312,7 @@ questions = [
         }
     },
     {
-        "question": "Government surveillance is necessary in the modern world.",
+        "question": "Political activists contribute little to nothing of value to society.",
         "effect": {
             "econ": 0,
             "dipl": 0,
