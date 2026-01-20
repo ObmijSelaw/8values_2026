@@ -200,7 +200,7 @@ ideologies = [
     {
         "name": "Paleo-Libertarianism", // --- Low dipl and scty, conservative influence also tones down laissez faire ---
         "stats": {
-            "econ": 20,
+            "econ": 15,
             "dipl": 35,
             "govt": 75,
             "scty": 25
@@ -223,13 +223,13 @@ ideologies = [
             "econ": 30,
             "dipl": 35,
             "govt": 60,
-            "scty": 30
+            "scty": 40
         }
     },
     {
         "name": "Paleo-Conservatism", // --- protectionist econ, more nationalist and conservative ---
         "stats": {
-            "econ": 65,
+            "econ": 40,
             "dipl": 20,
             "govt": 50,
             "scty": 20
@@ -238,19 +238,19 @@ ideologies = [
     {
         "name": "Distributism",// --- religious socioeconomic theory, social but not socialist ---
         "stats": {
-            "econ": 75,
-            "dipl": 35,
+            "econ": 70,
+            "dipl": 45,
             "govt": 60,
-            "scty": 20
+            "scty": 25
         }
     },
     {
         "name": "Neo-Conservatism", // --- more hawkish dipl, concerned about terrorism ---
         "stats": {
-            "econ": 30,
+            "econ": 20,
             "dipl": 10,
             "govt": 35,
-            "scty": 20
+            "scty": 25
         }
     },
 
@@ -269,7 +269,7 @@ ideologies = [
         "name": "Fascism", // --- less dipl and scty ---
         "stats": {
             "econ": 50,
-            "dipl": 15,
+            "dipl": 10,
             "govt": 10,
             "scty": 15
         }
@@ -280,7 +280,7 @@ ideologies = [
             "econ": 40,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": 10
         }
     },
 
