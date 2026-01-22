@@ -16,7 +16,7 @@ body {
     border-bottom-style: solid;                               
     border-width: 0.2em;
     font-size: 18px;
-    font-family: 'Atkinson Hyperlegible', 'Noto Sans JP' , sans-serif;
+    font-family: 'PT Sans Caption', 'Noto Sans JP' , sans-serif;
 }
 dt, dd, p{
     line-height: 1.5;
