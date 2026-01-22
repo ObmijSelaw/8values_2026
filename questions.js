@@ -8,13 +8,13 @@ questions = [
             "scty": 0
         }
     },
-    {
-        "question": "The freer the markets, the freer the people.",
+        {
+        "question": "The family, the church, and private charities should be the main providers of assistance for those in hard times, not the government.",
         "effect": {
             "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
+            "scty": -5
         }
     },
  {
@@ -38,9 +38,9 @@ questions = [
     
     
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "Young people no longer want to have children because their jobs take too much of their time and do not pay enough. A better work-life balance, maternity leave benefits, and family allowances are the solution.",
         "effect": {
-            "econ": 15,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 5
@@ -389,7 +389,7 @@ questions = [
         "question": "Diversity quotas favoring marginalized groups (LGBTQ+, blacks, indigenous, women, etc.) should be mandated for public and private sectors.",
         "effect": {
             "econ": 10,
-            "dipl": 0,
+            "dipl": 5,
             "govt": -10,
             "scty": 10
         }
@@ -401,6 +401,15 @@ questions = [
             "dipl": 0,
             "govt": 0,
             "scty": 0
+        }
+    },
+    {
+        "question": "Meritocracy is largely a myth; most financially successful individuals enjoyed systemic advantages and privileges the majority today does not have.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
         }
     },
     {
@@ -416,7 +425,7 @@ questions = [
         "question": "The entertainment industry should include and represent more people from marginalized groups (such as LGBTQ+, blacks, indigenous, women, etc.)",
         "effect": {
             "econ": 0,
-            "dipl": 0,
+            "dipl": 5,
             "govt": -5,
             "scty": 10
         }
@@ -445,6 +454,15 @@ questions = [
             "econ": 10,
             "dipl": 0,
             "govt": 5,
+            "scty": 10
+        }
+    },
+    {
+        "question": "There is no such thing as ethnic or cultural purity, cultures evolve all the time, and the mixing of human groups is a natural process that has occurred over millennia in all continents.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
             "scty": 10
         }
     },
@@ -548,6 +566,15 @@ questions = [
         }
     },
     {
+        "question": "Individuals who are unemployed, disabled, or otherwise economically disadvantaged should be provided stipends, tax credits, and/or food stamps.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
         "question": "Prostitution should be illegal.",
         "effect": {
             "econ": 0,
@@ -557,7 +584,7 @@ questions = [
         }
     },
     {
-        "question": "Children raised by mother and father do better in life. Having single, divorced, or homosexual parents is harmful and it should not be normalized.",
+        "question": "Children raised by mother and father do better in life. Having single or divorced parents is harmful and it should not be normalized.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -581,6 +608,15 @@ questions = [
             "dipl": 0,
             "govt": 0,
             "scty": 0
+        }
+    },
+    {
+        "question": "Most political revolutions have been been more interested in revengefully pulling down those at the top than with pulling up those in the bottom.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -5
         }
     },
     {
@@ -611,7 +647,7 @@ questions = [
         }
     },
     {
-        "question": "Individuals and private businesses should be allowed to refuse service to certain groups based on nationality,religion, race, or sexuality if so they choose.",
+        "question": "Individuals and private businesses should be allowed to refuse service to certain groups based on nationality, religion, race, or sexuality if so they choose.",
         "effect": {
             "econ": -5,
             "dipl": -10,
@@ -737,10 +773,10 @@ questions = [
         }
     },
     {
-        "question": "Contraception, abortions, and feminism are the culprits behind the reproduction-rate decline. Restricting them would save our culture, our race, and our country.",
+        "question": "Contraception, abortion, and feminism are the culprits behind the reproduction-rate decline. Restricting or banning them would save our culture, our race, and our country.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
+            "dipl": -10,
             "govt": -15,
             "scty": -10
         }
@@ -751,6 +787,15 @@ questions = [
             "econ": 10,
             "dipl": 0,
             "govt": 5,
+            "scty": 5
+        }
+    },
+    {
+        "question": "The middle and worker classes should stop looking up to the rich and learn to defend the interests of their own class.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
             "scty": 5
         }
     },
