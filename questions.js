@@ -8,7 +8,7 @@ questions = [
             "scty": 0
         }
     },
-        {
+    {
         "question": "The family, the church, and private charities should be the main providers of assistance for those in hard times, not the government.",
         "effect": {
             "econ": -10,
@@ -17,7 +17,16 @@ questions = [
             "scty": -5
         }
     },
- {
+    {
+        "question": "The freer the markets, the freer the people.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
         "question": "Main objective of justice system should be to rehabilitate those who broke the law, not to punish or isolate them.",
         "effect": {
             "econ": 0,
@@ -34,9 +43,7 @@ questions = [
             "govt": 0,
             "scty": 0
         }
-    },
-    
-    
+    },  
     {
         "question": "Young people no longer want to have children because their jobs take too much of their time and do not pay enough. A better work-life balance, maternity leave benefits, and family allowances are the solution.",
         "effect": {
@@ -46,7 +53,6 @@ questions = [
             "scty": 5
         }
     },
-
     {
         "question": "Zoning regulations should be dismantled to make housing more affordable and have shorter commutes.",
         "effect": {
@@ -944,5 +950,6 @@ questions = [
         }
     }
 ];
+
 
 
