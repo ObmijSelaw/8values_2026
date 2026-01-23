@@ -285,7 +285,7 @@ questions = [
         }
     },
     {
-        "question": "Individuals and media who try to undermine our political leadership through defamatory comments and baseless criticism should be legally prosecuted.",
+        "question": "Individuals and media who incite fear and panic through defamatory comments and baseless accusations against politicians should be legally prosecuted.",
         "effect": {
             "econ": 0,
             "dipl": 0,
