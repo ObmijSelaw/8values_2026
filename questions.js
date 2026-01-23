@@ -500,7 +500,7 @@ questions = [
         }
     },
     {
-        "question": "Important policy decisions should be made by qualified experts, rather than by politicians elected by their popularity.",
+        "question": "Important policy decisions should be made by qualified experts rather than elected politicians or the general public.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -950,6 +950,7 @@ questions = [
         }
     }
 ];
+
 
 
 
