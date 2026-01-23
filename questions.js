@@ -285,11 +285,11 @@ questions = [
         }
     },
     {
-        "question": "The general populace generally makes poor decisions left to its own devices.",
+        "question": "Individuals and media who try to undermine our political leadership through defamatory comments and baseless criticism should be legally prosecuted.",
         "effect": {
-            "econ": 5,
+            "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": -15,
             "scty": 0
         }
     },
@@ -658,7 +658,7 @@ questions = [
     {
         "question": "A non-monetary economy would be ideal.",
         "effect": {
-            "econ": 10,
+            "econ": 15,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -674,11 +674,11 @@ questions = [
         }
     },
    {
-        "question": "Big businesses and governments are working together to oppress the common man.",
+        "question": "Stock trading is a legitimate activity, fundamental for a productive, healthy, and free economy.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
-            "govt": 10,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -706,7 +706,7 @@ questions = [
             "econ": 10,
             "dipl": -5,
             "govt": 0,
-            "scty": -5
+            "scty": 0
         }
     },
     {
