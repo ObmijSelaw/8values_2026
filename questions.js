@@ -285,7 +285,7 @@ questions = [
         }
     },
     {
-        "question": "Individuals and media who incite fear and panic through defamatory comments and baseless accusations against politicians should be legally prosecuted.",
+        "question": "Individuals and media who incite fear and mass panic through defamatory comments and baseless accusations against public institutions and officials should be legally prosecuted.",
         "effect": {
             "econ": 0,
             "dipl": 0,
