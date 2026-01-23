@@ -285,11 +285,11 @@ questions = [
         }
     },
     {
-        "question": "Individuals and media who incite fear and mass panic through defamatory comments and baseless accusations against public institutions and officials should be legally prosecuted.",
+        "question": "The general populace generally makes poor decisions left to its own devices.",
         "effect": {
-            "econ": 0,
+            "econ": 5,
             "dipl": 0,
-            "govt": -15,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -457,6 +457,15 @@ questions = [
             "scty": 10
         }
     },
+        {
+        "question": "Large corporations should be prohibited from buying up vast amounts of farmland. agricultural estates should be broken up and redistributed to small farmers instead.",
+        "effect": {
+            "econ": 10,
+            "dipl": -5,
+            "govt": 0,
+            "scty": -5
+        }
+    },
     {
         "question": "There is no such thing as ethnic or cultural purity, cultures evolve all the time, and the mixing of human groups is a natural process that has occurred over millennia in all continents.",
         "effect": {
@@ -482,6 +491,24 @@ questions = [
             "dipl": 0,
             "govt": -10,
             "scty": 10
+        }
+    },
+    {
+        "question": "Important policy decisions should be made by qualified experts, rather than by politicians elected by their popularity.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 5
+        }
+    },
+    {
+        "question": "Natural resources like oil and minerals should be open to international private investment and development by whoever can extract them most efficiently.",
+        "effect": {
+            "econ": -10,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
         }
     },
     {
@@ -545,6 +572,15 @@ questions = [
             "dipl": 0,
             "govt": 0,
             "scty": -10
+        }
+    },
+    {
+        "question": "Social harmony and consensus are more important than individual expression and political pluralism.",
+            "effect": {
+            "econ": 5,
+            "dipl": -5,
+            "govt": -10,
+            "scty": -5
         }
     },
     {
@@ -908,4 +944,5 @@ questions = [
         }
     }
 ];
+
 
