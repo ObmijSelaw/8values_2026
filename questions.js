@@ -464,7 +464,7 @@ questions = [
         }
     },
         {
-        "question": "Large corporations should be prohibited from buying up vast amounts of farmland. agricultural estates should be broken up and redistributed to small farmers instead.",
+        "question": "Large corporations should be prohibited from buying up vast amounts of farmland. Agricultural estates should be broken up and redistributed to small farmers instead.",
         "effect": {
             "econ": 10,
             "dipl": -5,
@@ -950,6 +950,7 @@ questions = [
         }
     }
 ];
+
 
 
 
