@@ -18,7 +18,7 @@ questions = [
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "Minimum wage laws hurt the very people they claim to help by pricing low-skilled workers out of jobs.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -63,12 +63,12 @@ questions = [
         }
     },
     {
-        "question": "Inheritance of anything which is not personal possession is illegitimate.",
+        "question": "Parents should have the right to pass down their wealth and assets to their children without heavy taxation or interference.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": -5
         }
     },
     {
@@ -127,20 +127,20 @@ questions = [
         }
     },
     {
-        "question": "Quality education is a right of all people.",
+        "question": "Education is a service that is best provided by the market and private institutions, rather than the state.",
         "effect": {
-            "econ": 5,
+            "econ": -5,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": -5
         }
     },
     {
-        "question": "The means of production should belong to the workers.",
+        "question": "Occupational licensing requirements are mostly protectionist rackets that prevent competition and hurt consumers.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
-            "govt": 0,
+            "govt": 5,
             "scty": 0
         }
     },
@@ -273,29 +273,29 @@ questions = [
         }
     },
     {
-        "question": "Children should be taught about gender identity and sexual orientation starting in early elementary school.",
+        "question": "Discussions about gender identity and sexual orientation should have no place in elementary schools.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
-        "question": "We should implement a Universal Basic Income (UBI).",
+        "question": "Implementing an Universal Basic Income (UBI) would be prohibitively expensive, discourage productive work, and create a culture of dependency.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": -5
         }
     },
     {
-        "question": "The general populace generally makes poor decisions left to its own devices.",
+        "question": "Gig economy platforms (like Uber, Etsy, or Upwork) provide valuable flexibility; treating freelancers as employees would destroy these opportunities.",
         "effect": {
-            "econ": 5,
+            "econ": -10,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -374,18 +374,18 @@ questions = [
     },
       
     {
-        "question": "A better world will come from automation, science, and technology.",
+        "question": "Our obsession with technology and 'progress' is destroying traditional values and genuine human connections.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
-        "question": "Public schools and universities indoctrinate our children with harmful ideas. There should be more private schools and homeschooling instead.",
+        "question": "Carbon taxes and environmental regulations destroy jobs and make our industries uncompetitive globally.",
         "effect": {
-            "econ": -5,
+            "econ": -10,
             "dipl": 0,
             "govt": 5,
             "scty": -10
@@ -410,12 +410,12 @@ questions = [
         }
     },
     {
-        "question": "Meritocracy is largely a myth; most financially successful individuals enjoyed systemic advantages and privileges the majority today does not have.",
+        "question": "Success is primarily determined by individual talent and hard work, not systemic advantages or privilege.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
@@ -518,12 +518,12 @@ questions = [
         }
     },
     {
-        "question": "Transgender individuals should be legally recognized as their self-identified gender and be granted access to both public and private spaces based on their gender identity, not biological sex.",
+        "question": "Transgender women (biologically assigned males at birth) should not be allowed to compete in female sports leagues.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
-            "scty": 10
+            "govt": 0,
+            "scty": -10
         }
     },
     {
@@ -536,12 +536,12 @@ questions = [
         }
     },
     {
-        "question": "Same-sex couples should have the right to marry and adopt children.",
+        "question": "Marriage should be defined exclusively as a union between one man and one woman.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
@@ -635,12 +635,12 @@ questions = [
         }
     },
     {
-        "question": "Spreading misinformation and hate speech should be legally punished.",
+        "question": "The government should have no power to regulate or restrict freedom of speech, even if that speech is considered hateful, discriminatory, or misleading.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -15,
-            "scty": 10
+            "govt": 15,
+            "scty": -10
         }
     },
     {
@@ -662,12 +662,12 @@ questions = [
         }
     },
     {
-        "question": "Genetic modification is a force for good, even on humans.",
+        "question": "Tampering with nature through genetic modification, especially on humans, is dangerous and unethical.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
@@ -815,7 +815,7 @@ questions = [
         }
     },
     {
-        "question": "Contraception, abortion, and feminism are the culprits behind the reproduction-rate decline. Restricting or banning them would save our culture, our race, and our country.",
+        "question": "Modern feminism and sexual liberation is ruining dating between men and women, tanking the reproduction-rate or our people in the process. Restricting those ideologies would save our nation.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -869,21 +869,21 @@ questions = [
         }
     },
     {
-        "question": "We should have a total separation between state and religion.",
+        "question": "Abortion should be prohibited in most or all circumstances.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 10,
-            "scty": 10
+            "govt": -5,
+            "scty": -10
         }
     },
     {
-        "question": "People who have become wealthy, including landlords, often did so through taking on greater risk and, therefore, deserve the profits.",
+        "question": "Children benefit from having a parent, preferably the mother, stay at home rather than outsourcing childcare.",
         "effect": {
-            "econ": -10,
+            "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
+            "scty": -5
         }
     },
     {
@@ -950,6 +950,7 @@ questions = [
         }
     }
 ];
+
 
 
 
