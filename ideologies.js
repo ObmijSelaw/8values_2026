@@ -171,8 +171,8 @@ ideologies = [
     {
         "name": "Techno-optimism (e/acc)", // --- more nationalist and slightly more progressive at the same time ---
         "stats": {
-            "econ": 10,
-            "dipl": 45,
+            "econ": 15,
+            "dipl": 50,
             "govt": 70,
             "scty": 60
         }
@@ -186,15 +186,14 @@ ideologies = [
             "scty": 50
         }
     },
- 
-  
+   
     {
         "name": "Anarcho-Primitivism",
         "stats": {
             "econ": 60,
             "dipl": 70,
             "govt": 100,
-            "scty": 15
+            "scty": 10
         }
     },
     {
@@ -202,17 +201,17 @@ ideologies = [
         "stats": {
             "econ": 15,
             "dipl": 35,
-            "govt": 75,
-            "scty": 25
+            "govt": 70,
+            "scty": 20
         }
     },
     {
         "name": "Objectivism", // --- Laissez faire econ with strong nationalism. Atheist but not "woke" ---
         "stats": {
             "econ": 0,
-            "dipl": 10,
-            "govt": 75,
-            "scty": 65
+            "dipl": 20,
+            "govt": 80,
+            "scty": 45
         }
     },
 
