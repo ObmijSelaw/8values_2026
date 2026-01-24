@@ -118,9 +118,9 @@ questions = [
         }
     },
 {
-        "question": "We should produce based on use and need, not commodity.",
+        "question": "The government bureaucracy is bloated and inefficient; cutting staff and agencies is necessary to balance the budget.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -129,7 +129,7 @@ questions = [
     {
         "question": "Education is a service that is best provided by the market and private institutions, rather than the state.",
         "effect": {
-            "econ": -5,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": -5
@@ -491,12 +491,12 @@ questions = [
         }
     },
     {
-        "question": "The people and the government should follow the facts and science, not letting religion or other personal values to trump over them.",
+        "question": "Conscientious objection to performing certain medical proceedures (such as abortions, sterilization, or blood transfers) or research (such as those using embryonic cell lines) should be legal.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
-            "scty": 10
+            "govt": 10,
+            "scty": -5
         }
     },
     {
@@ -869,12 +869,12 @@ questions = [
         }
     },
     {
-        "question": "Abortion should be prohibited in most or all circumstances.",
+        "question": "Elective abortion (performed for non-medical reasons) should be legal.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
-            "scty": -10
+            "govt": 5,
+            "scty": 10
         }
     },
     {
@@ -950,6 +950,7 @@ questions = [
         }
     }
 ];
+
 
 
 
