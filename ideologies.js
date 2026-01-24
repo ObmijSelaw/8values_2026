@@ -3,7 +3,7 @@ ideologies = [
     {
         "name": "Marxism-Leninism", // --- Prototypical ideology within the block ---
         "stats": {
-            "econ": 90,
+            "econ": 85,
             "dipl": 65,
             "govt": 20,
             "scty": 60
@@ -39,8 +39,8 @@ ideologies = [
     {
         "name": "Religious Communism", // --- Most similar to Marxism but conservative ---
         "stats": {
-            "econ": 90,
-            "dipl": 40,
+            "econ": 85,
+            "dipl": 50,
             "govt": 20,
             "scty": 20
         }
@@ -62,7 +62,7 @@ ideologies = [
             "econ": 80,
             "dipl": 70,
             "govt": 80,
-            "scty": 65
+            "scty": 60
         }
     },
    
@@ -72,7 +72,7 @@ ideologies = [
             "econ": 80,
             "dipl": 70,
             "govt": 50,
-            "scty": 65
+            "scty": 60
         }
     },
 
@@ -102,7 +102,7 @@ ideologies = [
             "econ": 70,
             "dipl": 80,
             "govt": 100,
-            "scty": 60
+            "scty": 65
         }
     }, 
 
@@ -134,7 +134,7 @@ ideologies = [
             "econ": 25,
             "dipl": 50,
             "govt": 70,
-            "scty": 45
+            "scty": 40
         }
     },
     {
@@ -169,9 +169,9 @@ ideologies = [
         }
     },
     {
-        "name": "Techno-optimism (e/acc)", // --- more nationalist and slightly more progressive at the same time ---
+        "name": "Techno-optimism (e/acc)", // --- more nationalist and slightly more progressive at the same time. halfway between neolib and classic lib with dashes of minarchism ---
         "stats": {
-            "econ": 15,
+            "econ": 20,
             "dipl": 50,
             "govt": 70,
             "scty": 60
@@ -199,8 +199,8 @@ ideologies = [
     {
         "name": "Paleo-Libertarianism", // --- Low dipl and scty, conservative influence also tones down laissez faire ---
         "stats": {
-            "econ": 15,
-            "dipl": 35,
+            "econ": 10,
+            "dipl": 30,
             "govt": 70,
             "scty": 20
         }
@@ -209,9 +209,9 @@ ideologies = [
         "name": "Objectivism", // --- Laissez faire econ with strong nationalism. Atheist but not "woke" ---
         "stats": {
             "econ": 0,
-            "dipl": 20,
+            "dipl": 15,
             "govt": 80,
-            "scty": 45
+            "scty": 40
         }
     },
 
