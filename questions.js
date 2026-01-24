@@ -91,9 +91,9 @@ questions = [
         }
     },
             {
-        "question": "Housing should be treated as a human right, not an investment vehicle.",
+        "question": "Treating housing as an investment creates wealth and incentivizes construction of new homes to meet demand, ultimately benefiting everyone.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -770,12 +770,12 @@ questions = [
         }
     },
     {
-        "question": "Allowing commercial, for-profit space exploration was a mistake.",
+        "question": "Commercial space exploration drives innovation and human progress better than government programs ever could.",
         "effect": {
-            "econ": 10,
+            "econ": -5,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 5
         }
     },
     {
@@ -950,6 +950,7 @@ questions = [
         }
     }
 ];
+
 
 
 
