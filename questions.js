@@ -583,7 +583,7 @@ questions = [
     {
         "question": "Social harmony and consensus are more important than individual expression and political pluralism.",
             "effect": {
-            "econ": 5,
+            "econ": 0,
             "dipl": -5,
             "govt": -10,
             "scty": -5
@@ -691,9 +691,9 @@ questions = [
     {
         "question": "Individuals and private businesses should be allowed to refuse service to certain groups based on nationality, religion, race, or sexuality if so they choose.",
         "effect": {
-            "econ": -5,
+            "econ": -10,
             "dipl": -10,
-            "govt": 5,
+            "govt": 10,
             "scty": -10
         }
     },
@@ -950,6 +950,7 @@ questions = [
         }
     }
 ];
+
 
 
 
