@@ -815,7 +815,7 @@ questions = [
         }
     },
     {
-        "question": "Modern feminism and sexual liberation is ruining dating between men and women, tanking the reproduction-rate or our people in the process. Restricting those ideologies would save our nation.",
+        "question": "Modern feminism and sexual liberation is ruining dating between men and women, tanking the reproduction-rate of our people in the process. Restricting those ideologies would save our nation.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -950,6 +950,7 @@ questions = [
         }
     }
 ];
+
 
 
 
