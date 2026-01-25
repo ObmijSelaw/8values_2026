@@ -91,9 +91,9 @@ questions = [
         }
     },
             {
-        "question": "Treating housing as an investment creates wealth and incentivizes construction of new homes to meet demand, ultimately benefiting everyone.",
+        "question": "Major industries like energy, transportation, and banking should be publicly owned.",
         "effect": {
-            "econ": -10,
+            "econ": 15,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -109,9 +109,9 @@ questions = [
         }
     },
 {
-        "question": "Prices should be determined by supply and demand",
+        "question": "Prices should always be determined by supply and demand, even during events of demand or supply shock.",
         "effect": {
-            "econ": -10,
+            "econ": -15,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -149,8 +149,8 @@ questions = [
         "question": "The best way to ensure peace is through military strength and mutual deterrence.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
-            "govt": -5,
+            "dipl": -5,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -168,8 +168,8 @@ questions = [
         "question": "A civilized nation has the moral right to conquer primitive lands and peoples.",
         "effect": {
             "econ": 0,
-            "dipl": -15,
-            "govt": -5,
+            "dipl": -10,
+            "govt": -10,
             "scty": -15
         }
     },
@@ -195,25 +195,25 @@ questions = [
         "question": "Our country should always take into account the interests of allied nations and never wage war without their approval.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
-            "govt": 0,
+            "dipl": 5,
+            "govt": 5,
             "scty": 0
         }
     },
     {
         "question": "Military spending is a waste of money.",
         "effect": {
-            "econ": -5,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
+            "econ": 0,
+            "dipl": 5,
+            "govt": 5,
+            "scty": 5
         }
     },
     {
         "question": "International aid is a waste of money.",
         "effect": {
             "econ": -5,
-            "dipl": -10,
+            "dipl": -5,
             "govt": 0,
             "scty": 0
         }
@@ -340,7 +340,7 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": -10,
-            "govt": -5,
+            "govt": 0,
             "scty": -5
         }
             },
@@ -392,7 +392,7 @@ questions = [
         }
     },
     {
-        "question": "Diversity quotas favoring marginalized groups (LGBTQ+, blacks, indigenous, women, etc.) should be mandated for public and private sectors.",
+        "question": "Diversity and inclusion quotas favoring marginalized groups (LGBTQ+, blacks, indigenous, women, etc.) should be mandated for public and private sectors.",
         "effect": {
             "econ": 10,
             "dipl": 5,
@@ -410,30 +410,30 @@ questions = [
         }
     },
     {
-        "question": "Success is primarily determined by individual talent and hard work, not systemic advantages or privilege.",
+        "question": "Economic growth and development should take priority over political freedoms, at least until a country reaches a certain level of prosperity.",
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": 0,
-            "scty": -10
+            "govt": -10,
+            "scty": 0
         }
     },
     {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "The entertainment industry should include and represent more people from marginalized groups (such as LGBTQ+, blacks, indigenous, women, etc.)",
+        "question": "We should not hesitate to use military force to dismantle terrorist regimes and protect human rights abroad, even without UN approval.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
-            "govt": -5,
-            "scty": 10
+            "dipl": -5,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Worker cooperatives and employee-owned businesses should be the norm rather than corporations with outside shareholders.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
         }
     },
     {
@@ -549,7 +549,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 5,
+            "govt": 0,
             "scty": 10
         }
     },
@@ -698,7 +698,7 @@ questions = [
         }
     },
     {
-        "question": "A non-monetary economy would be ideal.",
+        "question": "A non-monetary (moneyless) economy would be ideal.",
         "effect": {
             "econ": 15,
             "dipl": 0,
@@ -727,7 +727,7 @@ questions = [
        {
         "question": "Pharmaceutical companies have way too much power.",
         "effect": {
-            "econ": 10,
+            "econ": 5,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -818,7 +818,7 @@ questions = [
         "question": "Modern feminism and sexual liberation is ruining dating between men and women, tanking the reproduction-rate of our people in the process. Restricting those ideologies would save our nation.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": -5,
             "govt": -15,
             "scty": -10
         }
@@ -950,6 +950,7 @@ questions = [
         }
     }
 ];
+
 
 
 
