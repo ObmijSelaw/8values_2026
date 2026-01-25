@@ -59,7 +59,7 @@ ideologies = [
     {
         "name": "Libertarian Socialism", // --- High govt, otherwise similar to Marxism ---
         "stats": {
-            "econ": 80,
+            "econ": 85,
             "dipl": 70,
             "govt": 80,
             "scty": 60
@@ -69,7 +69,7 @@ ideologies = [
     {
         "name": "Democratic Socialism", // --- Moderate govt, otherwise similar to Marxism ---
         "stats": {
-            "econ": 80,
+            "econ": 85,
             "dipl": 70,
             "govt": 50,
             "scty": 60
@@ -83,14 +83,14 @@ ideologies = [
             "econ": 70,
             "dipl": 40,
             "govt": 35,
-            "scty": 50
+            "scty": 40
         }
     },
     {
         "name": "Intersectional Progressivism", // --- High scty and dipl, also causes higher econ ---
         "stats": {
             "econ": 80,
-            "dipl": 90,
+            "dipl": 80,
             "govt": 40,
             "scty": 90
         }
@@ -110,7 +110,7 @@ ideologies = [
         "name": "Christian Democracy", // --- Low scty, but also slightly more democratic  ---
         "stats": {
             "econ": 70,
-            "dipl": 40,
+            "dipl": 50,
             "govt": 40,
             "scty": 20
         }
@@ -132,22 +132,21 @@ ideologies = [
         "name": "Classical Liberalism", // --- Prototypical within the block ---
         "stats": {
             "econ": 25,
-            "dipl": 50,
+            "dipl": 60,
             "govt": 70,
-            "scty": 40
+            "scty": 50
         }
     },
     {
         "name": "Social Liberalism", // --- Liberalism with medium high econ ---
         "stats": {
-            "econ": 70,
-            "dipl": 60,
+            "econ": 60,
+            "dipl": 65,
             "govt": 70,
             "scty": 60
         }
     },
- 
- 
+  
     {
         "name": "Neoliberalism", // --- Combines classical liberalism with globalist values ---
         "stats": {
@@ -163,7 +162,7 @@ ideologies = [
         "name": "Minarchism", // --- Prototypical within the block ---
         "stats": {
             "econ": 10,
-            "dipl": 75,
+            "dipl": 80,
             "govt": 80,
             "scty": 50
         }
@@ -171,9 +170,9 @@ ideologies = [
     {
         "name": "Techno-optimism (e/acc)", // --- more nationalist and slightly more progressive at the same time. halfway between neolib and classic lib with dashes of minarchism ---
         "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 70,
+            "econ": 15,
+            "dipl": 60,
+            "govt": 60,
             "scty": 60
         }
     },
@@ -200,7 +199,7 @@ ideologies = [
         "name": "Paleo-Libertarianism", // --- Low dipl and scty, conservative influence also tones down laissez faire ---
         "stats": {
             "econ": 10,
-            "dipl": 30,
+            "dipl": 45,
             "govt": 70,
             "scty": 20
         }
@@ -211,7 +210,7 @@ ideologies = [
             "econ": 0,
             "dipl": 15,
             "govt": 80,
-            "scty": 40
+            "scty": 50
         }
     },
 
@@ -221,15 +220,15 @@ ideologies = [
         "stats": {
             "econ": 30,
             "dipl": 35,
-            "govt": 60,
-            "scty": 40
+            "govt": 65,
+            "scty": 35
         }
     },
     {
         "name": "Paleo-Conservatism", // --- protectionist econ, more nationalist and conservative ---
         "stats": {
             "econ": 40,
-            "dipl": 20,
+            "dipl": 40,
             "govt": 50,
             "scty": 20
         }
@@ -238,7 +237,7 @@ ideologies = [
         "name": "Distributism",// --- religious socioeconomic theory, social but not socialist ---
         "stats": {
             "econ": 70,
-            "dipl": 45,
+            "dipl": 50,
             "govt": 60,
             "scty": 25
         }
@@ -248,8 +247,8 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 10,
-            "govt": 35,
-            "scty": 25
+            "govt": 40,
+            "scty": 35
         }
     },
 
@@ -276,7 +275,7 @@ ideologies = [
     {
         "name": "Nazism", // --- even less dipl and scty ---
         "stats": {
-            "econ": 40,
+            "econ": 50,
             "dipl": 0,
             "govt": 0,
             "scty": 10
@@ -297,9 +296,9 @@ ideologies = [
        "name": "East Asian Technocracy", // --- more capitalist, nationalist and slightly conservative ---
         "stats": {
             "econ": 30,
-            "dipl": 25,
-            "govt": 35,
-            "scty": 45
+            "dipl": 40,
+            "govt": 30,
+            "scty": 35
         }
     }
         
