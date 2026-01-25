@@ -330,7 +330,7 @@ questions = [
         "question": "The very existence of the state is a threat to our liberty.",
         "effect": {
             "econ": 0,
-            ,
+            "dipl": 10,
             "govt": 15,
             "scty": 0
         }
@@ -343,7 +343,7 @@ questions = [
             "govt": 0,
             "scty": -10
         }
-            },
+    },
             
     {
         "question": "Vaccination against contagious diseases should be mandatory.",
@@ -949,5 +949,4 @@ questions = [
             "scty": -5
         }
     }
-];
-
+];
