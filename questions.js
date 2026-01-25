@@ -14,7 +14,7 @@ questions = [
             "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": -5
+            "scty": 0
         }
     },
     {
@@ -38,7 +38,7 @@ questions = [
     {
         "question": "We should ensure everyone has their basic needs met no matter their income or job.",
         "effect": {
-            "econ": 10,
+            "econ": 5,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -68,7 +68,7 @@ questions = [
             "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": -5
+            "scty": 0
         }
     },
     {
@@ -109,7 +109,7 @@ questions = [
         }
     },
 {
-        "question": "Prices should be determined by supply and demand",
+        "question": "Prices should be determined by supply and demand.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -150,7 +150,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -159,9 +159,9 @@ questions = [
         "question": "Tariffs on foreign goods and subsidies for national industries are necessary to maintain our sovereignty and domestic jobs.",
         "effect": {
             "econ": 10,
-            "dipl": -10,
+            "dipl": -5,
             "govt": 0,
-            "scty": 0
+            "scty": -10
         }
     },
             {
@@ -170,7 +170,7 @@ questions = [
             "econ": 0,
             "dipl": -15,
             "govt": -5,
-            "scty": -15
+            "scty": -5
         }
     },
     {
@@ -186,16 +186,16 @@ questions = [
         "question": "My country is the noblest and most moral nation in the history of the world.",
         "effect": {
             "econ": 0,
-            "dipl": -15,
+            "dipl": -10,
             "govt": 0,
             "scty": -10
         }
     },
     {
-        "question": "Our country should always take into account the interests of allied nations and never wage war without their approval.",
+        "question": "We should not hesitate to use military force to dismantle terrorist regimes and protect human rights abroad, even without UN approval.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": -10,
             "govt": 0,
             "scty": 0
         }
@@ -213,9 +213,9 @@ questions = [
         "question": "International aid is a waste of money.",
         "effect": {
             "econ": -5,
-            "dipl": -10,
+            "dipl": -5,
             "govt": 0,
-            "scty": 0
+            "scty": -5
         }
     },
     {
@@ -242,7 +242,7 @@ questions = [
             "econ": 0,
             "dipl": 10,
             "govt": 10,
-            "scty": 10
+            "scty": 5
         }
     },
     {
@@ -330,7 +330,7 @@ questions = [
         "question": "The very existence of the state is a threat to our liberty.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
+            ,
             "govt": 15,
             "scty": 0
         }
@@ -339,9 +339,9 @@ questions = [
         "question": "Our country should be economically self-sufficient, not reliant on imports and exports.",
         "effect": {
             "econ": 10,
-            "dipl": -10,
-            "govt": -5,
-            "scty": -5
+            "dipl": -5,
+            "govt": 0,
+            "scty": -10
         }
             },
             
@@ -392,7 +392,7 @@ questions = [
         }
     },
     {
-        "question": "Diversity quotas favoring marginalized groups (LGBTQ+, blacks, indigenous, women, etc.) should be mandated for public and private sectors.",
+        "question": "Diversity and inclusion quotas favoring marginalized groups (LGBTQ+, blacks, indigenous, women, etc.) should be mandated for public and private sectors.",
         "effect": {
             "econ": 10,
             "dipl": 5,
@@ -432,7 +432,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 5,
-            "govt": -5,
+            "govt": 0,
             "scty": 10
         }
     },
@@ -440,7 +440,7 @@ questions = [
         "question": "It is important that we work as a united world to combat climate change.",
         "effect": {
             "econ": 5,
-            "dipl": 10,
+            "dipl": 5,
             "govt": 0,
             "scty": 10
         }
@@ -467,7 +467,7 @@ questions = [
         "question": "Large corporations should be prohibited from buying up vast amounts of farmland. Agricultural estates should be broken up and redistributed to small farmers instead.",
         "effect": {
             "econ": 10,
-            "dipl": -5,
+            "dipl": 0,
             "govt": 0,
             "scty": -5
         }
@@ -476,7 +476,7 @@ questions = [
         "question": "There is no such thing as ethnic or cultural purity, cultures evolve all the time, and the mixing of human groups is a natural process that has occurred over millennia in all continents.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 5,
             "govt": 0,
             "scty": 10
         }
@@ -509,12 +509,12 @@ questions = [
         }
     },
     {
-        "question": "Natural resources like oil and minerals should be open to international private investment and development by whoever can extract them most efficiently.",
+        "question": "Natural resources like oil and minerals should be open to international private investment and development by whoever can market them most efficiently.",
         "effect": {
             "econ": -10,
-            "dipl": 10,
+            "dipl": 5,
             "govt": 0,
-            "scty": 0
+            "scty": 5
         }
     },
     {
@@ -548,7 +548,7 @@ questions = [
         "question": "No cultures are superior to others.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 5,
             "govt": 5,
             "scty": 10
         }
@@ -557,16 +557,16 @@ questions = [
         "question": "Our country has a moral duty to accept and accommodate refugees from poor or war-torn countries.",
         "effect": {
             "econ": 5,
-            "dipl": 10,
+            "dipl": 5,
             "govt": 0,
-            "scty": 5
+            "scty": 10
         }
     },
     {
         "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": -5,
             "govt": -5,
             "scty": -10
         }
@@ -583,7 +583,7 @@ questions = [
     {
         "question": "Social harmony and consensus are more important than individual expression and political pluralism.",
             "effect": {
-            "econ": 0,
+            "econ": 5,
             "dipl": -5,
             "govt": -10,
             "scty": -5
@@ -610,7 +610,7 @@ questions = [
     {
         "question": "Individuals who are unemployed, disabled, or otherwise economically disadvantaged should be provided stipends, tax credits, and/or food stamps.",
         "effect": {
-            "econ": 10,
+            "econ": 5,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -644,7 +644,7 @@ questions = [
         }
     },
     {
-        "question": "Workers should have more say in the workplace.",
+        "question": "Major industries like energy, transportation, and banking should be publicly owned.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -674,7 +674,7 @@ questions = [
         "question": "We should open our borders to immigration.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 5,
             "govt": 5,
             "scty": 10
         }
@@ -692,13 +692,13 @@ questions = [
         "question": "Individuals and private businesses should be allowed to refuse service to certain groups based on nationality, religion, race, or sexuality if so they choose.",
         "effect": {
             "econ": -10,
-            "dipl": -10,
+            "dipl": -5,
             "govt": 10,
             "scty": -10
         }
     },
     {
-        "question": "A non-monetary economy would be ideal.",
+        "question": "A non-monetary (moneyless) economy would be ideal.",
         "effect": {
             "econ": 15,
             "dipl": 0,
@@ -725,7 +725,7 @@ questions = [
         }
     },
        {
-        "question": "Pharmaceutical companies have way too much power.",
+        "question": "Worker cooperatives and employee-owned businesses should be the norm rather than corporations with outside shareholders.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -746,7 +746,7 @@ questions = [
         "question": "It's deplorable that less than ten international conglomerates own all brands of food and water in the market.",
         "effect": {
             "econ": 10,
-            "dipl": -5,
+            "dipl": 0,
             "govt": 0,
             "scty": 0
         }
@@ -818,7 +818,7 @@ questions = [
         "question": "Modern feminism and sexual liberation is ruining dating between men and women, tanking the reproduction-rate of our people in the process. Restricting those ideologies would save our nation.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": -5,
             "govt": -15,
             "scty": -10
         }
@@ -927,7 +927,7 @@ questions = [
         "effect": {
             "econ": 5,
             "dipl": 0,
-            "govt": -15,
+            "govt": -10,
             "scty": 5
         }
     },
@@ -950,3 +950,4 @@ questions = [
         }
     }
 ];
+
