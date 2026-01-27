@@ -126,7 +126,7 @@ questions = [
 
     {
         "question": "It is important to allow freedom of migration across borders to address labor shortages in developed countries and give those from developing countries a chance to improve their quality of life.",
-        "effect": { "econ": -10, "dipl": 5, "govt": 5, "scty": 10 }
+        "effect": { "econ": -5, "dipl": 5, "govt": 5, "scty": 10 }
     },
 
     {
@@ -196,7 +196,7 @@ questions = [
 
     {
         "question": "Citizens should have the right to challenge government decisions in court.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": 0 }
+        "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
     },
 
     {
@@ -211,7 +211,7 @@ questions = [
 
     {
         "question": "Cryptocurrencies are useful only for clandestine gambling and money laundering. They should be heavily regulated or banned.",
-        "effect": { "econ": 5, "dipl": 0, "govt": -5, "scty": 0 }
+        "effect": { "econ": 10, "dipl": 0, "govt": -5, "scty": 0 }
     },
 
     {
@@ -399,6 +399,7 @@ questions = [
         "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": -10 }
     }
 ];
+
 
 
 
