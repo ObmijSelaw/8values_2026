@@ -62,7 +62,7 @@ ideologies = [
 // --- CENTRISM ---
     {
         "name": "Centrism",
-        "stats": { "econ": 50, "dipl": 50, "govt": 50, "scty": 5 }
+        "stats": { "econ": 50, "dipl": 50, "govt": 50, "scty": 50 }
     },
     
 // --- LIBERALISMS ---
