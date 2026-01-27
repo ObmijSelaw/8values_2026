@@ -215,7 +215,7 @@ questions = [
     },
 
     {
-        "question": "The government should never be allowed to use torture or "enhanced interrogation techniques" under any circumstances.",
+        "question": "The government should never be allowed to use torture or ''enhanced interrogation techniques'' under any circumstances.",
         "effect": { "econ": 0, "dipl": 5, "govt": 10, "scty": 0 }
     },
 
@@ -402,6 +402,7 @@ questions = [
     {
         "question": "The 'green industry' (manufacturing of electric vehicles, solar panels, windmills, biomass fuels) should not receive subsidies.",
         "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": -10 }
-    },
+    }
 ];
+
 
