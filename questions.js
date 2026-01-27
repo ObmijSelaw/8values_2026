@@ -215,16 +215,6 @@ questions = [
     },
 
     {
-        "question": "The government should never be allowed to use torture or ''enhanced interrogation techniques'' under any circumstances.",
-        "effect": { "econ": 0, "dipl": 5, "govt": 10, "scty": 0 }
-    },
-
-    {
-        "question": "Politicians have a responsibility not to upset the way of life, customs, values, and creeds of the populace.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
-    },
-
-    {
         "question": "Mantaining order and stable conditions for economic prosperity is more important than allowing ordinary people to influence public policies.",
         "effect": { "econ": -5, "dipl": 0, "govt": -10, "scty": 0 }
     },
@@ -236,11 +226,6 @@ questions = [
     
     {
         "question": "Automatic software and mass video-surveillance that predicts how much policing a neighborhood requires should be forbidden.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
-    },
-
-    {
-        "question": "A free and just society depends on individuals being able to make choices and openly discuss their ideas and interests without coercion.",
         "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
     },
 
@@ -404,5 +389,6 @@ questions = [
         "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": -10 }
     }
 ];
+
 
 
