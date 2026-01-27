@@ -70,6 +70,11 @@ questions = [
     },
 
     {
+        "question": "A central bank with the power to control the money supply with flexibility is important for economic stability and managing inflation; returning to the gold standard would be economically disastrous.",
+        "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 0 }
+    },
+
+    {
         "question": "Gig economy platforms (like Uber, Etsy, or Upwork) provide valuable flexibility; treating freelancers as employees would destroy these opportunities.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 0 }
     },
@@ -187,6 +192,11 @@ questions = [
     {
         "question": "Important policy decisions should be made by qualified experts, rather than by the general public or elected representatives.",
         "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 5 }
+    },
+
+    {
+        "question": "Citizens should have the right to challenge government decisions in court.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": 0 }
     },
 
     {
@@ -389,6 +399,7 @@ questions = [
         "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": -10 }
     }
 ];
+
 
 
 
