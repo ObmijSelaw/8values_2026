@@ -70,8 +70,8 @@ questions = [
     },
 
     {
-        "question": "The government should provide financial aid to gifted students or those from poor families to cover their education expenses.",
-        "effect": { "econ": 5, "dipl": 0, "govt": 0, "scty": 5 }
+        "question": "Gig economy platforms (like Uber, Etsy, or Upwork) provide valuable flexibility; treating freelancers as employees would destroy these opportunities.",
+        "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 0 }
     },
 
     {
@@ -81,7 +81,7 @@ questions = [
 
     {
         "question": "Worker cooperatives and/or employee-owned businesses should be the norm rather than multinational corporations with outside shareholders.",
-        "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 0 }
+        "effect": { "econ": 10, "dipl": -5, "govt": 0, "scty": 0 }
     },
 
     {
@@ -121,7 +121,7 @@ questions = [
 
     {
         "question": "It is important to allow freedom of migration across borders to address labor shortages in developed countries and give those from developing countries a chance to improve their quality of life.",
-        "effect": { "econ": -10, "dipl": 5, "govt": 10, "scty": 10 }
+        "effect": { "econ": -10, "dipl": 5, "govt": 5, "scty": 10 }
     },
 
     {
@@ -176,16 +176,16 @@ questions = [
 
     {
         "question": "Social media companies should be liable for user-posted content on their platforms.",
-        "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": 0 }
+        "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 0 }
     },
 
     {
-        "question": "Political activists contribute little to nothing of value to society.",
-        "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": 0 }
+        "question": "Protestors that block public avenues should be prosecuted and required to indemnify individuals and businesses affected by their disturbances.",
+        "effect": { "econ": -5, "dipl": 0, "govt": -10, "scty": 0 }
     },
 
     {
-        "question": "Crucial policy decisions should be made by qualified experts, rather than by the general public or elected representatives.",
+        "question": "Important policy decisions should be made by qualified experts, rather than by the general public or elected representatives.",
         "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 5 }
     },
 
@@ -210,8 +210,8 @@ questions = [
     },
 
     {
-        "question": "Single-party and winner-take-all electoral systems are unfair. We need proportional representation to give smaller parties a voice.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
+        "question": "Term limits for politicians make it impossible to achieve long-term goals. They should be relaxed or abolished.",
+        "effect": { "econ": 5, "dipl": 0, "govt": -15, "scty": 0 }
     },
 
     {
@@ -225,8 +225,8 @@ questions = [
     },
     
     {
-        "question": "Automatic software and mass video-surveillance that predicts how much policing a neighborhood requires should be forbidden.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
+        "question": "Modern surveillance technology is necessary for public safety and crime prevention.",
+        "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 0 }
     },
 
     {
@@ -275,8 +275,8 @@ questions = [
     },
 
     {
-        "question": "The state should enforce quotas mandating all schools and universities have enrolled at least a certain percentage of racial and sexual minorities.",
-        "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": 10 }
+        "question": "Racial and gender diversity quotas in schools and universities are discriminatory. Student admissions should be based solely on merit and qualifications.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": -10 }
     },
     
     {
@@ -285,8 +285,8 @@ questions = [
     },
     
     {
-        "question": "Since women comprise half of the world’s population, it would be fair for women to possess half of the world’s wealth.",
-        "effect": { "econ": 5, "dipl": 0, "govt": 0, "scty": 10 }
+        "question": "Wealth disparities between genders reflect differences in career choices, risk-taking, and work hours, not systemic discrimination; enforced equality of outcome is neither fair nor practical.",
+        "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": -10 }
     },
     
     {
@@ -305,13 +305,13 @@ questions = [
     },
 
     {
-        "question": "Affirmative action and Diversity, Equity, and Inclusion (DEI) initiatives perpetuate racism rather than eliminating it.",
+        "question": "Affirmative action and Diversity, Equity, and Inclusion (DEI) initiatives perpetuate sexism and racism rather than eliminating it.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
     
     {
-        "question": "The entertainment industry should make sure to cast talent and portray characters from historically marginalized groups (such as blacks, indigenous, LGBTQ+, women) in major, positive roles.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 5 }
+        "question": "Entertainment should prioritize artistic merit and audience preference over racial and gender casting quotas.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -5 }
     },
     
     {
@@ -320,8 +320,8 @@ questions = [
     },
 
     {
-        "question": "All forms of sex work, including prostitution, should be legalized and entitled to the same legal protections as any other kind of job.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": 10 }
+        "question": "Sex work, especially prostitution, should remain illegal because it degrades human sexuality, and fosters exploitation and human trafficking.",
+        "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": -10 }
     },
     
     {
@@ -335,7 +335,7 @@ questions = [
     },
     
     {
-        "question": "The gender identity of transgender individuals should be legally recognized and affirmed, rather than their biological sex at birth.",
+        "question": "The gender identity (rather than their biological sex at birth) of transgender individuals should be legally recognized and affirmed.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
     
@@ -350,8 +350,8 @@ questions = [
     },
     
     {
-        "question": "Space exploration and colonization is a life or death matter for mankind, and is important we do it as soon as possible.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
+        "question": "Marriage should be defined exclusively as a union between one man and one woman .",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
     
     {
@@ -389,6 +389,7 @@ questions = [
         "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": -10 }
     }
 ];
+
 
 
 
