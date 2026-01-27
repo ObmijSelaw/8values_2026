@@ -1,6 +1,4 @@
 questions = [
-
-// --- MAX 60 ITEMS. 20 items on pure ECON (checks socialism, welfarism vs pro-market and laissez faire)---
     {
         "question": "The government should invest more in public infrastructure.",
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 5 }
@@ -101,8 +99,6 @@ questions = [
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 10 }
     },
 
-// --- 7 items on SCTY, DIPL and ECON (checks protectionism vs globalized economics.)---
-
     {
         "question": "Tariffs on foreign goods and subsidies for national industries are necessary to maintain our sovereignty and domestic jobs.",
         "effect": { "econ": 10, "dipl": -5, "govt": 0, "scty": -10 }
@@ -138,8 +134,6 @@ questions = [
         "effect": { "econ": 0, "dipl": 5, "govt": 0, "scty": 10 }
     },
 
-// --- 7 items on DIPL (mostly concern national exceptionalism and militarism)
-
     {
         "question": "We should not hesitate to use military force to dismantle terrorist regimes and protect human rights abroad, even without UN approval.",
         "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 0 }
@@ -174,8 +168,6 @@ questions = [
         "question": "The most pressing issues today, such as climate change or the divide between the rich and the poor, concern all peoples equally and are more significant that the struggle between nations.",
         "effect": { "econ": 5, "dipl": 15, "govt": 0, "scty": 10 }
     },
-
-// --- 16 items on GOVT ---
 
     {
         "question": "Compulsory enlistment into military service is unacceptable. Professional militaries should be staffed with volunteers only.",
@@ -257,10 +249,6 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
     },
 
-// --- 16 items on SCTY (they usually affect other axes too) ---
-
-// --- Drugs, medicine, and abortion 4 item minipack ---
-
     {
         "question": "All drugs should be legal.",
         "effect": { "econ": -5, "dipl": 0, "govt": 10, "scty": 5 }
@@ -281,8 +269,6 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": -5 }
     },
 
-// --- Declining birth-rates 3 item minipack ---
-
     {
         "question": "Reproduction-rate decline is only an issue because of the impending social security pyramid collapse. Privatizing retirement funds would be the solution.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 0 }
@@ -297,8 +283,6 @@ questions = [
         "question": "Modern feminism and sexual liberation is ruining dating between men and women, tanking the reproduction-rate of our people in the process. Restricting those ideologies would save our nation.",
         "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": -10 }
     },
-
-// --- DEI items combo 10 items---
 
     {
         "question": "Individuals and private businesses should be allowed to refuse service to certain groups based on nationality, religion, race, or sexuality if so they choose.",
@@ -350,8 +334,6 @@ questions = [
         "effect": { "econ": 5, "dipl": 0, "govt": 0, "scty": -10 }
     },
 
-// --- Sexuality minpack 4 items ---
-
     {
         "question": "All forms of sex work, including prostitution, should be legalized and entitled to the same legal protections as any other kind of job.",
         "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": 10 }
@@ -372,8 +354,6 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
     
-// --- Technology minipack 5 items ---
-
     {
         "question": "The industrial revolution unleashed chaos mankind cannot cope with. We should return to simpler times.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -15 }
@@ -399,7 +379,6 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -5 }
     },
     
-// --- Monetization and commercialization of technology minipack 2 items ---
     {
         "question": "Commercial space exploration drives innovation and human progress better than government programs ever could.",
         "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": 5 }
@@ -410,8 +389,6 @@ questions = [
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 0 }
     },
     
-// --- Climate change policy minipack 3 items ---
-
     {
         "question": "Carbon taxes and environmental regulations destroy jobs and make our industries uncompetitive globally.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": -10 }
@@ -427,3 +404,4 @@ questions = [
         "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": -10 }
     },
 ];
+
