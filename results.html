@@ -1,3 +1,6 @@
+To copy to 8values results
+========================
+
 <html lang="ja">
 <head>
     <meta charset="utf-8">
@@ -115,7 +118,7 @@
 
 <div class="info_wrapper">
     <div class="text-wrapper">
-        <p>Enjoyed the test? If so, check out <a href='https://leftvalues.github.io/'>LeftValues</a> if your results leaned towards Progressivism and Equality and get more specific results! If you favored Markets and/or Tradition, the <a href='https://rightvaluestest.github.io'>RightValues</a> test is for you! Interested in feminism? Check the <a href='https://femscale.github.io/'>FemScale</a>and discover where you stand!<br><br>To save your results, copy the URL or click on "Download" below to get your scores in a convenient image.</p>
+        <p>Enjoyed the test? If so, check out <a href='https://leftvalues.github.io/'>LeftValues</a> if your results leaned towards Progressivism and Equality and get more specific results! If you favored Markets and/or Tradition, the <a href='https://rightvaluestest.github.io'>RightValues</a> test is for you! Interested in feminism? Check the <a href='https://femscale.github.io/'>FemScale</a> and discover where you stand!<br><br>To save your results, copy the URL or click on "Download" below to get your scores in a convenient image.</p>
     </div>
     <div class="share">
         <a id="btnDownload" download="8values-ja_results.png" href="">Download</a>
@@ -149,10 +152,10 @@
         }
     }
 
-    econArray = ["Communist","Socialist","Welfare","Mixed","Coordinated Market","Deregulated","Laissez-faire"]
-    diplArray = ["Borderless","Internationalist","Multilateralist","Balanced","Sovereignist","Nationalist","Exceptionalist"]
-    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Centralist","Authoritarian","Totalitarian"]
-    sctyArray = ["Intersectionalist","Progressive","Reformist","Neutral","Conservative","Traditionalist","Primitivist"]
+    econArray = ["Decommodified","Socialized","Social market (SOME)","Mixed","Coordinated market (CME)","Liberal market (LME)","Laissez-faire (LFE)"]
+    diplArray = ["Post-national","Supranational","Multilateral","Balanced","Westphalian","Nationalist","Exceptionalist"]
+    govtArray = ["Voluntary association","Decentralised","Pluralist","Hybrid","Centralist","Autocratic","Totalitarian"]
+    sctyArray = ["Radical intersectionality","Critical constructivism","Cultural integrationism","Neutral","Cultural assimilationism","Normative essentialism","Naturalistic primitivism"]
 
 function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -261,11 +264,11 @@ function setLabel(val,ary) {
 
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 20, 170, 100, 100);
-        img = document.getElementById("img-wealth")
+        img = document.getElementById("img-market")
         ctx.drawImage(img, 680, 170, 100, 100)
-        img = document.getElementById("img-might")
+        img = document.getElementById("img-nation")
         ctx.drawImage(img, 20, 290, 100, 100)
-        img = document.getElementById("img-peace")
+        img = document.getElementById("img-globe")
         ctx.drawImage(img, 680, 290, 100, 100)
         img = document.getElementById("img-liberty")
         ctx.drawImage(img, 20, 410, 100, 100)
