@@ -112,11 +112,6 @@ ideologies = [
     },
     
     {
-        "name": "Techno-optimism (e/acc)",
-        "stats": { "econ": 15, "dipl": 50, "govt": 60, "scty": 65 }
-    },
-    
-    {
         "name": "Objectivism",
         "stats": { "econ": 5, "dipl": 15, "govt": 80, "scty": 45 }
     },
