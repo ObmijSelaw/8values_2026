@@ -35,7 +35,7 @@ questions = [
     },
 
     {
-        "question": "Social welfare programs are legalized vote-buying . Those in need should be assisted by their family, private charity, and/or the church, not the government.",
+        "question": "Social welfare programs are legalized vote-buying. Those in need should be assisted by their family, private charity, and/or the church, not the government.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 0 }
     },
     
@@ -45,8 +45,8 @@ questions = [
     },
 
     {
-        "question": "Parents should have the right to pass down their wealth and assets to their children without heavy taxation or interference.",
-        "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 0 }
+        "question": "Inheritances perpetuate social injustice because it makes it possible for a few to amass significant amounts of wealth without having to work. There should be limits on the amount of property that may be inherited.",
+        "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 0 }
     },
 
     {
@@ -115,7 +115,7 @@ questions = [
     },
 
     {
-        "question": "When jobs are scarce, our citizens should have more of a right to a job than immigrants.",
+        "question": "When jobs are scarce, our native-born citizens should have more of a right to a job than immigrants.",
         "effect": { "econ": 10, "dipl": -5, "govt": 0, "scty": -10 }
     },
 
@@ -230,7 +230,7 @@ questions = [
     },
 
     {
-        "question": "The very existence of the state is a threat to our liberty, and, ideally, it would replaced by voluntary associations.",
+        "question": "The very existence of the state is a threat to our liberty, and, ideally, governments should replaced by voluntary associations.",
         "effect": { "econ": 0, "dipl": 10, "govt": 15, "scty": 0 }
     },
     
@@ -255,7 +255,7 @@ questions = [
     },
 
     {
-        "question": "Elective abortion (those done for non-medical reasons) should be legal.",
+        "question": "Elective abortion (done for non-medical reasons) should be legal.",
         "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": 10 }
     },
 
