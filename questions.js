@@ -171,7 +171,7 @@ questions = [
 
     {
         "question": "The most pressing issues today, such as climate change or the divide between the rich and the poor, concern all peoples equally and are more significant that the struggle between nations.",
-        "effect": { "econ": 10, "dipl": 15, "govt": 0, "scty": 10 }
+        "effect": { "econ": 10, "dipl": 10, "govt": 0, "scty": 10 }
     },
 
     {
