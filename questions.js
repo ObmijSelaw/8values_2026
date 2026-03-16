@@ -5,7 +5,7 @@ questions = [
     },
 
     {
-        "question": "Taxation is a form of theft. All government services should be funded through voluntary contributions only.",
+        "question": "Taxation is a form of theft. All government services (if any) should be funded through voluntary contributions only.",
         "effect": { "econ": -15, "dipl": 0, "govt": 0, "scty": 0 }
     },
 
@@ -41,7 +41,7 @@ questions = [
     
     {
         "question": "The cost of housing is inflated mostly by over-regulation and inflexible zoning laws; the solution is to allow developers to build freely to meet demand.",
-        "effect": { "econ": -10, "dipl": 0, "govt": 5, "scty": 0 }
+        "effect": { "econ": -10, "dipl": 0, "govt": 10, "scty": 0 }
     },
 
     {
@@ -106,17 +106,17 @@ questions = [
 
     {
         "question": "Tariffs on foreign goods and subsidies for national industries are necessary to maintain our sovereignty and domestic jobs.",
-        "effect": { "econ": 10, "dipl": -5, "govt": 0, "scty": -10 }
+        "effect": { "econ": 5, "dipl": -5, "govt": 0, "scty": -10 }
     },
 
     {
         "question": "Natural resources like oil and minerals should be open to international private investment and development by whoever can market them most efficiently.",
-        "effect": { "econ": -10, "dipl": 5, "govt": 0, "scty": 5 }
+        "effect": { "econ": -10, "dipl": 5, "govt": 0, "scty": 0 }
     },
 
     {
         "question": "When jobs are scarce, our native-born citizens should have more of a right to a job than immigrants.",
-        "effect": { "econ": 10, "dipl": -5, "govt": 0, "scty": -10 }
+        "effect": { "econ": 5, "dipl": -5, "govt": 0, "scty": -10 }
     },
 
     {
@@ -166,17 +166,17 @@ questions = [
 
     {
         "question": "The best way to ensure peace is through military strength and mutual deterrence .",
-        "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 0 }
+        "effect": { "econ": 0, "dipl": -5, "govt": 0, "scty": 0 }
     },
 
     {
         "question": "The most pressing issues today, such as climate change or the divide between the rich and the poor, concern all peoples equally and are more significant that the struggle between nations.",
-        "effect": { "econ": 10, "dipl": 10, "govt": 0, "scty": 10 }
+        "effect": { "econ": 5, "dipl": 10, "govt": 0, "scty": 10 }
     },
 
     {
-        "question": "Compulsory enlistment into military service is unacceptable. Professional militaries should be staffed with volunteers only.",
-        "effect": { "econ": 0, "dipl": 10, "govt": 10, "scty": 0 }
+        "question": "Compulsory enlistment into national military service is unacceptable. Professional militaries should be staffed with volunteers only.",
+        "effect": { "econ": 0, "dipl": 5, "govt": 10, "scty": 0 }
     },
 
     {
@@ -186,7 +186,7 @@ questions = [
 
     {
         "question": "Protestors that block public avenues should be prosecuted and required to indemnify individuals and businesses affected by their disturbances.",
-        "effect": { "econ": -5, "dipl": 0, "govt": -10, "scty": 0 }
+        "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 0 }
     },
 
     {
@@ -221,7 +221,7 @@ questions = [
 
     {
         "question": "Term limits for politicians make it impossible to achieve long-term goals. They should be relaxed or abolished.",
-        "effect": { "econ": 5, "dipl": 0, "govt": -15, "scty": 0 }
+        "effect": { "econ": 0, "dipl": 0, "govt": -15, "scty": 0 }
     },
 
     {
@@ -256,7 +256,7 @@ questions = [
 
     {
         "question": "Elective abortion (done for non-medical reasons) should be legal.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": 10 }
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
 
     {
@@ -290,8 +290,8 @@ questions = [
     },
     
     {
-        "question": "Advertisements featuring excessively thin models should be banned.",
-        "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": 5 }
+        "question": "National sovereignty should not be an absolute; Addressing global challenges such as climate change and pandemic preparedness requires nations to cede some decision-making authority in favor of global cooperation.",
+        "effect": { "econ": 0, "dipl": 10, "govt": 0, "scty": 5 }
     },
     
     {
@@ -315,6 +315,11 @@ questions = [
     },
 
     {
+        "question": "Top-down urban planning concepts, such as the '15-minute city,' are more about expanding government surveillance and restricting freedom of movement than improving the quality of life of its inhabitants.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
+    },
+
+    {
         "question": "Affirmative action and Diversity, Equity, and Inclusion (DEI) initiatives perpetuate sexism and racism rather than eliminating it.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
@@ -325,7 +330,7 @@ questions = [
     },
     
     {
-        "question": "Grievances about cultural issues such as diverse media representation and transgenderism distract from the real issues the worker class faces.",
+        "question": "Grievances about cultural issues, such as diverse media representation and LGBT rights, distract from the real issues the worker class faces.",
         "effect": { "econ": 5, "dipl": 0, "govt": 0, "scty": -10 }
     },
 
@@ -348,19 +353,29 @@ questions = [
         "question": "The gender identity (rather than their biological sex at birth) of transgender individuals should be legally recognized and affirmed.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
+
+    {
+        "question": "The ideal lifestyle is to be found in suburbs and rural areas, where families have private space including open land and/or large backyards, and enjoy freedom of movement through their own cars and trucks.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -5 }
+    },
     
     {
         "question": "The industrial revolution unleashed chaos mankind cannot cope with. We should return to simpler times.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -15 }
     },
-    
+
     {
-        "question": "The main driver of progress is technology, not politics; politicians are largely obsolete and incapable of solving mankind's most pressing issues.",
-        "effect": { "econ": -10, "dipl": 0, "govt": 10, "scty": 15 }
+        "question": "Society should transition away from private car ownership by redesigning cities for high-density living, bicycle usage, and public transit.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
     
     {
-        "question": "Marriage should be defined exclusively as a union between one man and one woman .",
+        "question": "The main driver of progress is technology, not politics; politicians are largely obsolete and incapable of solving mankind's most pressing issues.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 15 }
+    },
+    
+    {
+        "question": "Marriage should be defined exclusively as a union between one man and one woman.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
     
@@ -370,8 +385,13 @@ questions = [
     },
     
     {
-        "question": "Tampering with nature through genetic modification and brain implants, especially on humans, is dangerous and unethical.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -5 }
+        "question": "Advances in genetic engineering, such as gene editing to eliminate hereditary diseases, are a net-positive for mankind.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
+    },
+
+    {
+        "question": "The ideal lifestyle is to be found in dense urban centers, living in apartments or condos with amenities, jobs, and services at a walking distance or reachable through bicycle and public transportation.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 5 }
     },
     
     {
@@ -383,12 +403,27 @@ questions = [
         "question": "The mass commercialization and monetization of the Internet was a mistake.",
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 0 }
     },
+
+    {
+        "question": "Human beings should aspire to use technology to transcend all biological limitations, including aging, disease, and cognitive constraints.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 15 }
+    },
+
+    { 
+        "question": "Tampering with nature through genetic modification and brain implants, especially on humans, is dangerous and unethical.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 } 
+    },
     
     {
         "question": "Carbon taxes and environmental regulations destroy jobs and make our industries uncompetitive globally.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": -10 }
     },
-    
+                   
+    {
+        "question": "The pace of technological change has outstripped society's capacity to manage its consequences; a precautionary approach should take precedence over the drive to innovate.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
+    },
+                                     
     {
         "question": "Environmental justice should be prioritized alongside social and economic justice, as climate change disproportionately affects marginalized groups.",
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 10 }
@@ -399,11 +434,4 @@ questions = [
         "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": -10 }
     }
 ];
-
-
-
-
-
-
-
 
