@@ -50,6 +50,11 @@ questions = [
     },
 
     {
+        "question": "Occupational licensing requirements are mostly protectionist rackets that prevent competition and hurt consumers.",
+        "effect": { "econ": -10, "dipl": 0, "govt": 5, "scty": 0 }
+    },
+
+    {
         "question": "Healthcare services, including health insurance, should be privatized.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 0 }
     },
@@ -323,6 +328,11 @@ questions = [
         "question": "Affirmative action and Diversity, Equity, and Inclusion (DEI) initiatives perpetuate sexism and racism rather than eliminating it.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
+
+    {
+        "question": "It should be mandatory for internet websites to perform age verification through ID checks of their userbase to prevent cyberharassment and child abuse.",
+        "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 0 }
+    },
     
     {
         "question": "Entertainment should prioritize artistic merit and audience preference over racial and gender casting quotas.",
@@ -342,6 +352,11 @@ questions = [
     {
         "question": "Transgender women (individuals whose gender identity is female albeit born with male body parts) should be barred from participating in female sports leagues.",
         "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": -5 }
+    },
+
+    {
+        "question": "Women should never have been encouraged to enter the general workforce, and feminism misled them into abandoning family life to the detriment of society and themselves.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
     
     {
