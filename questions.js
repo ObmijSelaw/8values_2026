@@ -175,7 +175,7 @@ questions = [
     },
 
     {
-        "question": "The most pressing issues today, such as climate change or the divide between the rich and the poor, concern all peoples equally and are more significant that the struggle between nations.",
+        "question": "The most pressing issues today, such as climate change or the divide between the rich and the poor, concern all peoples equally and are more significant than the struggle between nations.",
         "effect": { "econ": 5, "dipl": 10, "govt": 0, "scty": 10 }
     },
 
@@ -295,7 +295,7 @@ questions = [
     },
     
     {
-        "question": "National sovereignty should not be an absolute; Addressing global challenges such as climate change and pandemic preparedness requires nations to cede some decision-making authority in favor of global cooperation.",
+        "question": "National sovereignty should not be an absolute; addressing global challenges such as climate change and pandemic preparedness requires nations to cede some decision-making authority in favor of global cooperation.",
         "effect": { "econ": 0, "dipl": 10, "govt": 0, "scty": 5 }
     },
     
@@ -305,12 +305,12 @@ questions = [
     },
     
     {
-        "question": "Colorblind approaches to racial issues do more harm than good by ignoring structural inequality.",
+        "question": "Colorblind approaches to racial issues do more harm  good by ignoring structural inequality.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
     
     {
-        "question": "Identity groups such as race, gender, and disability are more significant divisions than economic class.",
+        "question": "Identity groups such as race, gender, and disability are more significant divisions  economic class.",
         "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": 5 }
     },
     
@@ -320,7 +320,7 @@ questions = [
     },
 
     {
-        "question": "Top-down urban planning concepts, such as the '15-minute city,' are more about expanding government surveillance and restricting freedom of movement than improving the quality of life of its inhabitants.",
+        "question": "Top-down urban planning concepts, such as the '15-minute city,' are more about expanding government surveillance and restricting freedom of movement and less about improving the quality of life of its inhabitants.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
 
