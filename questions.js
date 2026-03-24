@@ -1,5 +1,3 @@
-8values items
-========================
 questions = [
 
  // --- EXTREME econ BUSTERS (6 ITEMS; combined effect: econ: 0, govt:5, scty: 5) ---
@@ -204,7 +202,7 @@ questions = [
     
     
     {
-        "question": ""A Universal Basic Income (UBI) would discourage productive work and create a permanent class of state-dependent individuals.".",
+        "question": "A Universal Basic Income (UBI) would discourage productive work and create a permanent class of state-dependent individuals.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 0 }
     },
 // --- Developmentalist position items (2 ITEMS) (combined effect econ 5) ---
@@ -218,11 +216,16 @@ questions = [
         "effect": { "econ": -5, "dipl": 0, "govt": -10, "scty": 0 }
     },
   
- // --- Economic nationalism items (5 ITEMS) (combined effect: econ: 0, scty: -10---
+ // --- Economic nationalism items (6 ITEMS) (combined effect: econ 10 dipl: 0, scty: -5---
 
     {
         "question": "Natural resources like oil and minerals should be open to international private investment and development by whoever can market them most efficiently.",
         "effect": { "econ": -10, "dipl": 5, "govt": 0, "scty": 0 }
+    },
+    
+        {
+        "question": ""A nation's natural resources, such as minerals and petroleum, belong to its people and should be managed for the benefit of domestic development, not extracted for the profit of foreign corporations.",
+        "effect": { "econ": 10, "dipl": -5, "govt": 0, "scty": 0 }
     },
 
     {
@@ -237,7 +240,7 @@ questions = [
     
     {
         "question": "Tariffs on foreign goods and subsidies for national industries are necessary to maintain our sovereignty and domestic jobs.",
-        "effect": { "econ": 5, "dipl": -5, "govt": 0, "scty": -10 }
+        "effect": { "econ": 5, "dipl": -5, "govt": 0, "scty": -5 }
     },
     
 
@@ -520,7 +523,7 @@ questions = [
     },
     
     {
-        "question": "Colorblind approaches to racial issues do more harm  good by ignoring structural inequality.",
+        "question": "Colorblind approaches to racial issues do more harm than good by ignoring structural inequality.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
     
@@ -571,7 +574,7 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 5 }
     },
   
- // --- Gender and lgbtq item pack (6 items combined effect econ 5 govt -10 scty -30)
+ // --- Gender and lgbtq item pack (8 items combined effect econ 5 govt -10 scty 0)
 
     
     {
@@ -580,8 +583,18 @@ questions = [
     },
     
     {
-        "question": "Transgender women (individuals whose gender identity is female albeit born with male body parts) should be barred from participating in female sports leagues.",
-        "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": -5 }
+        "question": "Transsexuals who have transitioned to another gender should be allowed to compete in men’s or women’s sports in accordance with their current gender.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": 5 }
+    },
+    
+    {
+        "question": "LGBTQ+ couples should have the same legal rights as heterosexual couples regarding marriage, adoption, and family benefits.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
+    },
+   
+     {
+        "question": "Gender identity is not synonym with or reducible to the physical sex organs; gender is a spectrum rather than a strict binary.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
 
     {
@@ -653,7 +666,7 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 15 }
     },
 
-// --- ecology and fuels item pack (combined scores econ -10 govt 0 scty 25 ) ---
+// --- ecology and fuels item pack (combined scores econ -10 govt 0 scty 15 ) ---
 
     {
         "question": "We should heavily embrace nuclear power as a primary, reliable, and economically viable energy source, rather than restricting it or artificially subsidizing less efficient 'green' sources like wind or solar.",
@@ -663,7 +676,7 @@ questions = [
     {
         "question": "The 'green industry' (manufacturing of electric vehicles, solar panels, windmills, biomass fuels) should not receive subsidies.",
         "effect": { "econ": -5, "dipl": 0, "govt": 0, "scty": -10 }
-    }
+    },
     
     {
         "question": "Carbon taxes and environmental regulations destroy jobs and make our industries uncompetitive globally.",
@@ -708,8 +721,9 @@ questions = [
     {
         "question": "Excessive union power drives up costs, protects underperformers, and ultimately harms the workers it claims to protect.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": -5 }
-    },
+    }
                    
-   
    ];
+
+
 
