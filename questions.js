@@ -224,7 +224,7 @@ questions = [
     },
     
         {
-        "question": ""A nation's natural resources, such as minerals and petroleum, belong to its people and should be managed for the benefit of domestic development, not extracted for the profit of foreign corporations.",
+        "question": "A nation's natural resources, such as minerals and petroleum, belong to its people and should be managed for the benefit of domestic development, not extracted for the profit of foreign corporations.",
         "effect": { "econ": 10, "dipl": -5, "govt": 0, "scty": 0 }
     },
 
