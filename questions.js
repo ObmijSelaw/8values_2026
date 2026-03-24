@@ -341,7 +341,7 @@ questions = [
         "effect": { "econ": 0, "dipl": 5, "govt": 10, "scty": 0 }
     },
     
- // --- State powers items (9 ITEMS) (combined effect govt -40 scty 5 ) ---
+ // --- State powers items (11 ITEMS) (combined effect govt -40 scty 5 ) ---
 
     {
         "question": "Social media companies should be liable for user-posted content on their platforms.",
@@ -353,7 +353,6 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
     },
     
- 
     {
         "question": "Spreading misinformation, dangerous political beliefs, and hate speech should be legally punished.",
         "effect": { "econ": 0, "dipl": 0, "govt": -15, "scty": 5 }
