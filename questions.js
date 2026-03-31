@@ -193,18 +193,13 @@ questions = [
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 5 }
     },
 
-// --- UBI items (2 ITEMS) (effect econ 0) ---
+// --- UBI items (1 ITEMS) (effect econ 10) ---
 
     {
         "question": "We should implement an Universal Basic Income (UBI) system.",
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 0 }
     },
-    
-    
-    {
-        "question": "A Universal Basic Income (UBI) would discourage productive work and create a permanent class of state-dependent individuals.",
-        "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 0 }
-    },
+ 
 // --- Developmentalist position items (2 ITEMS) (combined effect econ 5) ---
     {
         "question": "The state and/or the public have a legitimate interest in coordinating productive practices, such as developing common industrial standards, funding technological research, and subsidizing vocational training, not just relying in the free market.",
@@ -232,18 +227,12 @@ questions = [
         "question": "When jobs are scarce, our native-born citizens should have more of a right to a job than immigrants.",
         "effect": { "econ": 5, "dipl": -5, "govt": 0, "scty": -10 }
     },
-
-    {
-        "question": "Protectionism is economic suicide in the modern world.",
-        "effect": { "econ": -10, "dipl": 5, "govt": 0, "scty": 5 }
-    },
     
     {
         "question": "Tariffs on foreign goods and subsidies for national industries are necessary to maintain our sovereignty and domestic jobs.",
         "effect": { "econ": 5, "dipl": -5, "govt": 0, "scty": -5 }
     },
     
-
     {
         "question": "Free international trade is economically beneficial to all countries involved and promotes world peace.",
         "effect": { "econ": -10, "dipl": 5, "govt": 0, "scty": 5 }
@@ -252,7 +241,7 @@ questions = [
 // --- Immigration items (7 ITEMS) (combined effect econ: -5 govt: -5 scty: 0---
 
     {
-        "question": "Freedom of migration across borders is a human right; respecting it would help address labor shortages in developed countries and give those from developing countries a chance to improve their quality of life.",
+        "question": "Freedom of migration across borders is a human right; respecting this right would help address labor shortages in developed countries and give those from developing countries a chance to improve their quality of life.",
         "effect": { "econ": -5, "dipl": 5, "govt": 5, "scty": 10 }
     },
 
@@ -270,19 +259,14 @@ questions = [
         "question": "Individuals who enter our country in contravention to our migration laws and procedures should always be deported to deter further illegal migration and ensure only law-abiding persons enter our country.",
         "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": -10 }
     },
-
-    {
-        "question": "Most people who come from other countries don't make enough effort to understand our way of life and respect our culture.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -5 }
-    },
     
     {
         "question": "Accepting large numbers of refugees strains public services and social cohesion; nations should prioritize the security and economic wellbeing of their own citizens.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -5 }
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
     
     {
-        "question": "Immigrants enrich our culture and are productive members of society.",
+        "question": "There is no such thing as ethnic or cultural purity, cultures evolve all the time, and the mixing of human groups is a natural process that has occurred over millennia in all continents.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
 
@@ -428,11 +412,6 @@ questions = [
         "question": "Capital punishment is a legitimate tool of justice for the most severe crimes.",
         "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 0 }
     },
-
-    {
-        "question": "Corporal punishments are appropriate penalties and effective deterrents against certain crimes.",
-        "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": 0 }
-    },
     
     {
         "question": "Police departments should be defunded and their budgets re-allocated towards assisting marginalised communities, preventing them from turning to a life of crime in the first place.",
@@ -442,12 +421,12 @@ questions = [
 // --- Right to bear arms minipack (2ITEMS) (combined effect govt 0 scty 0)---
 
     {
-        "question": "Civilians should have the right to own firearms, including for personal and household defense.",
+        "question": "Civilians should have the right to own firearms. Gun control laws mostly limit law-abiding citizens from protecting themselves and their households, because criminals do not comply with the law in the first place.",
         "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": -5 }
     },
     
     {
-        "question": "Only the military, law enforcement, and licensed security firms should be permitted to possess firearms.",
+        "question": "Only the military, law enforcement, and licensed security firms should be permitted to possess firearms. Leaving access to firearms to individual discretion promotes a culture of violence and makes it easier for criminals to obtain weapons and cause widespread harm.",
         "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": 5 }
     },
     
@@ -460,23 +439,38 @@ questions = [
     },
 
     {
-        "question": "Medically assisted suicide should be legal.",
+        "question": "Individuals suffering from incurable or debilitating conditions should have the right to legally end their lives with medical assistance, maintaining their dignity and autonomy.",
         "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": 5 }
     },
 
     {
-        "question": "Elective abortion (done for non-medical reasons) should be legal.",
+        "question": "Legalizing medically assisted suicide devalues human life and creates a dangerous dynamic where the elderly, depressed, or disabled might feel pressured to end their lives.",
+        "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": -5 }
+    },
+
+    {
+        "question": "Access to safe and legal abortion is a fundamental right for women and a legitimate exercise of their reproductive autonomy; restricting access to it forces women to carry pregnancies against their will or into dangerous unregulated procedures, which is a violation of their bodily autonomy and dignity.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
 
     {
+        "question": "Fetuses and embryos have an inherent right to life just like any other human being, therefore, abortion and especially 'elective abortion' (those done for non-medical reasons) should be legally prohibited; a civilized society has a duty to protect unborn children from being killed for the sake of convenience.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
+    },
+
+    {
         "question": "Medical professionals should have the right to refuse performing certain medical procedures (such as sterilizations, or abortions) or providing specific medical products (such as contraceptive pills).",
-        "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": -5 }
+        "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": -5 }
     },
     
     {
-        "question": "Sex work, especially prostitution, should remain illegal because it degrades human sexuality, and fosters exploitation and human trafficking.",
+        "question": "Sex work, especially prostitution, should remain illegal because it degrades human sexuality and, far from being empowering, generally is the result of extreme poverty or of serious underlying problems, such as drug addiction, or sexual trauma, therefore, it should not be normalized.",
         "effect": { "econ": 0, "dipl": 0, "govt": -5, "scty": -10 }
+    },
+
+    {
+        "question": "All sex work between consenting adults should be fully decriminalized, and sex workers entitled to the same legal protections as any other kind of worker, empowering them economically, recognizing their bodily autonomy, and preventing them from falling victim to abuse.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 5, "scty": 10 }
     },
 
 // --- Reproduction rate minipack (3 ITEMS) (combined effect econ 0 govt -5 scty -5)  ---
